@@ -102,7 +102,9 @@ platform_trials_simulation <- function(
     trial_sample_size = 2L * max_group_size  # NEW: per-arm total (arm + concurrent ctrl)
     
 ) {
-
+  if (analysis_model == "anova_period" && isTRUE(concurrent_only)) {
+    stop("anova_period is only allowed when concurrent_only = FALSE")
+  }
   rand_mode   <- match.arg(rand_mode)
   test_side   <- match.arg(test_side)
   alternative <- match.arg(alternative)
@@ -377,19 +379,38 @@ platform_trials_simulation <- function(
     alloc_vec <- if (exists("alloc_bias_i")) alloc_bias_i else bias_i
     
     # build a small per-arm matrix
-    arm_metrics <- matrix(NA_real_, nrow = n_arms, ncol = 3,
-                          dimnames = list(arm_names,
-                                          c("mse_outcome_vs_0.05",
-                                            "mean_allocation_bias",
-                                            "mean_chronological_bias")))
-    for (code in seq_len(n_arms)) {
-      idxs <- which(assign_i == code)
-      if (length(idxs) == 0L) next
-      # requested metrics
-      arm_metrics[code, "mse_outcome_vs_0.05"] <- mean( (outcomes[idxs] - 0.05)^2 )
-      arm_metrics[code, "mean_allocation_bias"] <- mean( alloc_vec[idxs] )
-      arm_metrics[code, "mean_chronological_bias"] <- mean( beta_time * s_t[idxs] )
+    # --- Bias/performance metrics per arm -------------------------
+    # Use alpha (one-sided significance level) as MSE reference
+    if (idx > 0L) {
+      arm_names <- names(mu_vec)
+      n_arms    <- length(arm_names)
+      alloc_vec <- if (exists("alloc_bias_i")) alloc_bias_i else bias_i
+      
+      mse_col <- sprintf("mse_outcome_vs_%.3f", alpha)
+      
+      arm_metrics <- matrix(NA_real_, nrow = n_arms, ncol = 3,
+                            dimnames = list(arm_names,
+                                            c(mse_col,
+                                              "mean_allocation_bias",
+                                              "mean_chronological_bias")))
+      for (code in seq_len(n_arms)) {
+        idxs <- which(assign_i == code)
+        if (length(idxs) == 0L) next
+        
+        arm_metrics[code, mse_col]                  <- mean((outcomes[idxs] - alpha)^2)
+        arm_metrics[code, "mean_allocation_bias"]   <- mean(alloc_vec[idxs])
+        arm_metrics[code, "mean_chronological_bias"]<- mean(beta_time * s_t[idxs])
+      }
+    } else {
+      mse_col <- sprintf("mse_outcome_vs_%.3f", alpha)
+      arm_metrics <- matrix(numeric(0), nrow = 0, ncol = 3,
+                            dimnames = list(NULL,
+                                            c(mse_col,
+                                              "mean_allocation_bias",
+                                              "mean_chronological_bias")))
     }
+    
+    
   } else {
     arm_metrics <- matrix(numeric(0), nrow = 0, ncol = 3,
                           dimnames = list(NULL,
