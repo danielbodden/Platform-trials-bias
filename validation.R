@@ -514,8 +514,15 @@ print(type1_results, row.names = FALSE)
 res <- platform_trials_simulation(return_detail = TRUE, max_group_size = 24, alloc_bias = 0.2,
                                   beta_time = 0.1, expected_total = 150,
                                   rand_mode = "block", block_factor = 1,
-                                  analysis_model = "anova_period", exp_arms = c("A","B"), arm_start = c(A=0,B=16), bias_policy="favor_all_exp")
+                                  analysis_model = "ttest", exp_arms = c("A","B"), arm_start = c(A=0,B=16), bias_policy="favor_all_exp")
 print(res)
+
+res <- platform_trials_simulation(return_detail = TRUE, max_group_size = 24, alloc_bias = 0.2, two_step=TRUE,
+                                  beta_time = 0.1, expected_total = 150,
+                                  rand_mode = "block", block_factor = 1,
+                                  analysis_model = "ttest", exp_arms = c("A","B"), arm_start = c(A=1,B=16), bias_policy="favor_all_exp")
+print(res)
+
 
 # ============================
 # (4) Power validation

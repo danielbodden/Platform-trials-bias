@@ -18,7 +18,7 @@ suppressPackageStartupMessages({
 })
 
 # ---------- cluster knobs ----------
-n_sim_per_point <- as.integer(Sys.getenv("N_SIM_PER_POINT", "2000"))
+n_sim_per_point <- as.integer(Sys.getenv("N_SIM_PER_POINT", "200"))
 seed_base       <- as.integer(Sys.getenv("SEED_BASE",       "20251031"))
 
 # ---------- fixed trial settings ----------
@@ -52,7 +52,7 @@ png_device <- function(...) if (use_cairo) grDevices::png(type = "cairo", ...) e
 pdf_device <- function(...) if (use_cairo) grDevices::cairo_pdf(...) else grDevices::pdf(...)
 
 # --- simulator ---
-source("PT_bias/simulation_functions.R")
+source("simulation_functions.R")
 
 # --- core sweep for one panel ---
 .run_sweep <- function(
@@ -61,7 +61,7 @@ source("PT_bias/simulation_functions.R")
     alloc_on        = FALSE,
     chrono_on       = FALSE,
     concurrent_only = TRUE,
-    analysis_model  = c("ttest","anova_period"),
+    analysis_model  = c("ttest","lm_time"),
     seed_bump       = 0L
 ) {
   rand_mode      <- match.arg(rand_mode)
@@ -72,7 +72,7 @@ source("PT_bias/simulation_functions.R")
     set.seed(seed_base + seed_bump + i +
                1000L * block_factor +
                ifelse(rand_mode == "complete", 9999L, 0L) +
-               ifelse(analysis_model == "anova_period", 7777L, 0L))
+               ifelse(analysis_model == "lm_time", 7777L, 0L))
     
     out <- calc_rejection_summary(
       n_sim          = n_sim_per_point,
@@ -134,9 +134,9 @@ build_panel_data_overlay_models <- function(alloc_on, chrono_on, scenario_label)
   d_t  <- build_panel_data_single_model(alloc_on, chrono_on, concurrent_only = FALSE,
                                         scenario_label = scenario_label, analysis_model = "ttest")
   d_an <- build_panel_data_single_model(alloc_on, chrono_on, concurrent_only = FALSE,
-                                        scenario_label = scenario_label, analysis_model = "anova_period")
+                                        scenario_label = scenario_label, analysis_model = "lm_time")
   dat <- rbind(d_t, d_an)
-  dat$model <- factor(dat$model, levels = c("ttest","anova_period"), labels = c("t-test","ANOVA"))
+  dat$model <- factor(dat$model, levels = c("ttest","lm_time"), labels = c("t-test","ANOVA"))
   dat
 }
 
