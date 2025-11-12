@@ -91,7 +91,8 @@ platform_trials_simulation <- function(
     block_factor    = 1,                       # repeats per code in a block (only for "block")
     expected_total  = 200,                     # used for time trend scaling
     beta_time       = 0,                       # linear time trend coefficient
-    alloc_bias      = 0,                       # allocation bias
+    alloc_bias      = 0,                       # allocation bias 
+    chronobias_type = c("linear", "stepwise"), # type of chronological bias
     exp_arms        = c("A","B","C"),           # <<< ADD: flexible experimental arms
     test_side       = c("two.sided","one.sided"),
     alternative     = c("greater","less"),
@@ -108,6 +109,7 @@ platform_trials_simulation <- function(
   rand_mode   <- match.arg(rand_mode)
   test_side   <- match.arg(test_side)
   alternative <- match.arg(alternative)
+  chronobias_type <- match.arg(chronobias_type)
   bias_policy <- match.arg(bias_policy)
   analysis_model <- match.arg(analysis_model)     # <<< ADD  
   # --- fixed order A,B,C,D (codes 1..4)
@@ -365,6 +367,7 @@ platform_trials_simulation <- function(
   
   
   s_t     <- pmin(times_i, expected_total) / expected_total
+  
   mu_pat  <- mu_vec[assign_i] + beta_time * s_t + alloc_bias_i
   outcomes <- rnorm(idx, mean = mu_pat, sd = 1)
   
