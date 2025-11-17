@@ -91,6 +91,7 @@ platform_trials_simulation <- function(
     block_factor    = 1,                       # repeats per code in a block (only for "block")
     expected_total  = 200,                     # used for time trend scaling
     beta_time       = 0,                       # linear time trend coefficient
+    chronobias_incr = 0,                       # bias increment per period
     alloc_bias      = 0,                       # allocation bias 
     chronobias_type = c("linear", "stepwise"), # type of chronological bias
     exp_arms        = c("A","B","C"),           # <<< ADD: flexible experimental arms
@@ -103,9 +104,7 @@ platform_trials_simulation <- function(
     trial_sample_size = 2L * max_group_size  # NEW: per-arm total (arm + concurrent ctrl)
     
 ) {
-  if (analysis_model == "anova_period" && isTRUE(concurrent_only)) {
-    stop("anova_period is only allowed when concurrent_only = FALSE")
-  }
+  
   rand_mode   <- match.arg(rand_mode)
   test_side   <- match.arg(test_side)
   alternative <- match.arg(alternative)
@@ -114,6 +113,11 @@ platform_trials_simulation <- function(
   analysis_model <- match.arg(analysis_model)     # <<< ADD  
   # --- fixed order A,B,C,D (codes 1..4)
   # <<< EDIT:
+  
+  if (analysis_model == "anova_period" && isTRUE(concurrent_only)) {
+    stop("anova_period is only allowed when concurrent_only = FALSE")
+  }
+  
   all_arms <- c(exp_arms, "D")
   mu_vec   <- mu[all_arms]
   n_exp    <- length(exp_arms)
@@ -183,7 +187,7 @@ platform_trials_simulation <- function(
   # ============================
   # NEW: period tracking ...
   # ============================
-  period_idx <- 1L
+  period_idx <- 0L
   period_t_start <- 1L
   current_counts <- matrix(0L, nrow = length(all_arms), ncol = 3L,
                            dimnames = list(all_arms, c("pos","neg","neu")))  # <<< EDIT
@@ -365,11 +369,17 @@ platform_trials_simulation <- function(
   alloc_bias_i <- alloc_bias_i[seq_len(idx)]
   period_i     <- period_i[seq_len(idx)]          # <<< ADD
   
+  # linear vs stepwise chronological bias
+  if(chronobias_type == "linear") {
+    s_t     <- pmin(times_i, expected_total) / expected_total
+    chr_bias <- beta_time * s_t
+  } else {
+    chr_bias <- (period_i - 1) * chronobias_incr
+  }
   
-  s_t     <- pmin(times_i, expected_total) / expected_total
-  
-  mu_pat  <- mu_vec[assign_i] + beta_time * s_t + alloc_bias_i
+  mu_pat  <- mu_vec[assign_i] + chr_bias + alloc_bias_i
   outcomes <- rnorm(idx, mean = mu_pat, sd = 1)
+  #print(mu_pat)
   
   # --- NEW: per-arm bias/performance metrics --------------------
   # Mean squared error (outcome - 0.05), mean allocation bias, mean chronological bias
@@ -402,7 +412,14 @@ platform_trials_simulation <- function(
         
         arm_metrics[code, mse_col]                  <- mean((outcomes[idxs] - alpha)^2)
         arm_metrics[code, "mean_allocation_bias"]   <- mean(alloc_vec[idxs])
-        arm_metrics[code, "mean_chronological_bias"]<- mean(beta_time * s_t[idxs])
+        
+        if(chronobias_type == "linear") {
+          arm_metrics[code, "mean_chronological_bias"] <- mean(beta_time * s_t[idxs])
+        } else {
+          mean_bias <- mean(sum((period_i - 1) * rep(chronobias_incr, length(period_i))))
+          arm_metrics[code, "mean_chronological_bias"] <- mean_bias
+        }
+        
       }
     } else {
       mse_col <- sprintf("mse_outcome_vs_%.3f", alpha)
@@ -534,6 +551,7 @@ platform_trials_simulation <- function(
   res$concurrent_only <- concurrent_only
   res$alloc_bias      <- alloc_bias
   res$beta_time       <- beta_time
+  res$chronobias_incr <- chronobias_incr
   res$expected_total  <- expected_total
   res$alpha           <- alpha
   res$test_side       <- test_side
@@ -555,6 +573,8 @@ summarize_runs <- function(n_sim = 500,
                            concurrent_only = TRUE,
                            expected_total = 200,
                            beta_time = 0,
+                           chronobias_incr = 0,
+                           chronobias_type = "linear",
                            rand_mode = "block",
                            block_factor = 1,
                            alloc_bias = 0) {
@@ -566,6 +586,8 @@ summarize_runs <- function(n_sim = 500,
                                               concurrent_only=concurrent_only,
                                               expected_total=expected_total,
                                               beta_time=beta_time,
+                                              chronobias_incr=chronobias_incr,
+                                              chronobias_type = chronobias_type,
                                               rand_mode=rand_mode,
                                               block_factor=block_factor,
                                               alloc_bias=alloc_bias),
