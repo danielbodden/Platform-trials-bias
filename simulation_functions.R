@@ -91,7 +91,7 @@ platform_trials_simulation <- function(
     block_factor    = 1,                       # repeats per code in a block (only for "block")
     expected_total  = 200,                     # used for time trend scaling
     beta_time       = 0,                       # linear time trend coefficient
-    chronobias_incr = 0,                       # bias increment per period
+    chronobias_incr = 0,                       # bias per period
     alloc_bias      = 0,                       # allocation bias 
     chronobias_type = c("linear", "stepwise"), # type of chronological bias
     exp_arms        = c("A","B","C"),           # <<< ADD: flexible experimental arms
@@ -374,7 +374,7 @@ platform_trials_simulation <- function(
     s_t     <- pmin(times_i, expected_total) / expected_total
     chr_bias <- beta_time * s_t
   } else {
-    chr_bias <- (period_i - 1) * chronobias_incr
+    chr_bias <- chronobias_incr[period_i]
   }
   
   mu_pat  <- mu_vec[assign_i] + chr_bias + alloc_bias_i
@@ -416,7 +416,7 @@ platform_trials_simulation <- function(
         if(chronobias_type == "linear") {
           arm_metrics[code, "mean_chronological_bias"] <- mean(beta_time * s_t[idxs])
         } else {
-          mean_bias <- mean(sum((period_i - 1) * rep(chronobias_incr, length(period_i))))
+          mean_bias <- mean(chronobias_incr[period_i[idxs]])
           arm_metrics[code, "mean_chronological_bias"] <- mean_bias
         }
         
