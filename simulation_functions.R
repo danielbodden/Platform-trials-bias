@@ -386,8 +386,7 @@ platform_trials_simulation <- function(
                          beta_time * (mid_point/expected_total))
 
   } else if (chronobias_type == "seasonal") {
-    times <- pmin(times_i, expected_total)
-    chr_bias <- beta_time * sin(4 * pi * times / expected_total)
+    chr_bias <- beta_time * sin(4 * pi * times_i / expected_total)
   }
   
   mu_pat  <- mu_vec[assign_i] + chr_bias + alloc_bias_i
