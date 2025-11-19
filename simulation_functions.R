@@ -93,7 +93,8 @@ platform_trials_simulation <- function(
     beta_time       = 0,                       # linear time trend coefficient
     chronobias_incr = 0,                       # bias per period
     alloc_bias      = 0,                       # allocation bias 
-    chronobias_type = c("linear", "stepwise"), # type of chronological bias
+    chronobias_type = c("linear", "stepwise",
+                        "inv_u", "seasonal"), # type of chronological bias
     exp_arms        = c("A","B","C"),           # <<< ADD: flexible experimental arms
     test_side       = c("two.sided","one.sided"),
     alternative     = c("greater","less"),
@@ -369,12 +370,24 @@ platform_trials_simulation <- function(
   alloc_bias_i <- alloc_bias_i[seq_len(idx)]
   period_i     <- period_i[seq_len(idx)]          # <<< ADD
   
-  # linear vs stepwise chronological bias
+  # linear vs stepwise vs inverted u vs seasonal chronological bias
   if(chronobias_type == "linear") {
     s_t     <- pmin(times_i, expected_total) / expected_total
     chr_bias <- beta_time * s_t
-  } else {
+  } else if (chronobias_type == "stepwise") {
     chr_bias <- chronobias_incr[period_i]
+  } else if (chronobias_type == "inv_u") {
+    
+    mid_point <- expected_total / 2
+    times <- pmin(times_i, expected_total)
+    chr_bias <- ifelse(times < mid_point,
+                       beta_time * times/expected_total,
+                       -beta_time * (times - mid_point)/expected_total + 
+                         beta_time * (mid_point/expected_total))
+
+  } else if (chronobias_type == "seasonal") {
+    times <- pmin(times_i, expected_total)
+    chr_bias <- beta_time * sin(4 * pi * times / expected_total)
   }
   
   mu_pat  <- mu_vec[assign_i] + chr_bias + alloc_bias_i
@@ -415,8 +428,17 @@ platform_trials_simulation <- function(
         
         if(chronobias_type == "linear") {
           arm_metrics[code, "mean_chronological_bias"] <- mean(beta_time * s_t[idxs])
-        } else {
+        } else if(chronobias_type == "stepwise") {
           mean_bias <- mean(chronobias_incr[period_i[idxs]])
+          arm_metrics[code, "mean_chronological_bias"] <- mean_bias
+        } else if (chronobias_type == "inv_u") {
+          mean_bias <- mean(ifelse(times_i[idxs] < mid_point,
+                                   beta_time * times_i[idxs]/expected_total,
+                                   -beta_time * (times_i[idxs] - mid_point)/expected_total + 
+                                     beta_time * (mid_point/expected_total)))
+          arm_metrics[code, "mean_chronological_bias"] <- mean_bias
+        } else if (chronobias_type == "seasonal") {
+          mean_bias <- mean(beta_time * sin(4 * pi * times_i[idxs] / expected_total))
           arm_metrics[code, "mean_chronological_bias"] <- mean_bias
         }
         
