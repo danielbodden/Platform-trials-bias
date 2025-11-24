@@ -269,8 +269,11 @@ platform_trials_simulation <- function(
     block_factor    = 1,                       # repeats per code in a block (only for "block")
     expected_total  = 200,                     # used for time trend scaling
     beta_time       = 0,                       # linear time trend coefficient
-    alloc_bias      = 0,                       # allocation bias
-    exp_arms        = c("A","B","C"),          # flexible experimental arms
+    chronobias_incr = 0,                       # bias per period
+    alloc_bias      = 0,                       # allocation bias 
+    chronobias_type = c("linear", "stepwise",
+                        "inv_u", "seasonal"), # type of chronological bias
+    exp_arms        = c("A","B","C"),           # <<< ADD: flexible experimental arms
     test_side       = c("two.sided","one.sided"),
     alternative     = c("greater","less"),
     bias_policy     = c("favor_B","favor_all_exp","average",
@@ -282,13 +285,11 @@ platform_trials_simulation <- function(
     two_step        = FALSE,                   # enable two-step randomization
     bigstick_a      = 2L                       # max tolerated per-period imbalance for 'bigstick'
 ) {
-  analysis_model <- match.arg(analysis_model)
-  if (analysis_model == "lm_time" && isTRUE(concurrent_only)) {
-    stop("lm_time is only allowed when concurrent_only = FALSE")
-  }
+  
   rand_mode   <- match.arg(rand_mode)
   test_side   <- match.arg(test_side)
   alternative <- match.arg(alternative)
+  chronobias_type <- match.arg(chronobias_type)
   bias_policy <- match.arg(bias_policy)
   
   # 2-step-specific policies cannot be used in 1-step randomization
@@ -297,6 +298,12 @@ platform_trials_simulation <- function(
   }
   
   # --- fixed order A,B,C,D (codes 1..4)
+  # <<< EDIT:
+  
+  if (analysis_model == "anova_period" && isTRUE(concurrent_only)) {
+    stop("anova_period is only allowed when concurrent_only = FALSE")
+  }
+  
   all_arms <- c(exp_arms, "D")
   mu_vec   <- mu[all_arms]
   n_exp    <- length(exp_arms)
@@ -559,7 +566,7 @@ platform_trials_simulation <- function(
   # ============================
   # period tracking
   # ============================
-  period_idx <- 1L
+  period_idx <- 0L
   period_t_start <- 1L
   current_counts <- matrix(0L, nrow = length(all_arms), ncol = 3L,
                            dimnames = list(all_arms, c("pos","neg","neu")))
@@ -805,13 +812,31 @@ platform_trials_simulation <- function(
     cohort_i             <- cohort_i[seq_len(idx)]
     ctrl_by_cohort_log   <- ctrl_by_cohort_log[seq_len(idx), , drop = FALSE]
   }
+  alloc_bias_i <- alloc_bias_i[seq_len(idx)]
+  period_i     <- period_i[seq_len(idx)]          # <<< ADD
   
-  # ============================
-  # Outcomes & metrics (unchanged)
-  # ============================
-  s_t     <- pmin(times_i, expected_total) / expected_total
-  mu_pat  <- mu_vec[assign_i] + beta_time * s_t + alloc_bias_i
+  # linear vs stepwise vs inverted u vs seasonal chronological bias
+  if(chronobias_type == "linear") {
+    s_t     <- pmin(times_i, expected_total) / expected_total
+    chr_bias <- beta_time * s_t
+  } else if (chronobias_type == "stepwise") {
+    chr_bias <- chronobias_incr[period_i]
+  } else if (chronobias_type == "inv_u") {
+    
+    mid_point <- expected_total / 2
+    times <- pmin(times_i, expected_total)
+    chr_bias <- ifelse(times < mid_point,
+                       beta_time * times/expected_total,
+                       -beta_time * (times - mid_point)/expected_total + 
+                         beta_time * (mid_point/expected_total))
+
+  } else if (chronobias_type == "seasonal") {
+    chr_bias <- beta_time * sin(4 * pi * times_i / expected_total)
+  }
+  
+  mu_pat  <- mu_vec[assign_i] + chr_bias + alloc_bias_i
   outcomes <- rnorm(idx, mean = mu_pat, sd = 1)
+  #print(mu_pat)
   
   responder_cat <- ifelse(alloc_bias_i > 0, "pos",
                           ifelse(alloc_bias_i < 0, "neg", "neu"))
@@ -886,10 +911,34 @@ platform_trials_simulation <- function(
       in_win <- times_i >= arm_open & times_i <= t_end
       y_idx <- which(assign_i == (n_exp + 1L) & in_win)
       
-      if (length(y_idx) >= 1L) {
-        add_mat[k, mse_col]                   <- mean((outcomes[y_idx] - alpha)^2)
-        add_mat[k, "mean_allocation_bias"]    <- mean(alloc_vec[y_idx])
-        add_mat[k, "mean_chronological_bias"] <- mean(beta_time * pmin(times_i[y_idx], expected_total) / expected_total)
+      arm_metrics <- matrix(NA_real_, nrow = n_arms, ncol = 3,
+                            dimnames = list(arm_names,
+                                            c(mse_col,
+                                              "mean_allocation_bias",
+                                              "mean_chronological_bias")))
+      for (code in seq_len(n_arms)) {
+        idxs <- which(assign_i == code)
+        if (length(idxs) == 0L) next
+        
+        arm_metrics[code, mse_col]                  <- mean((outcomes[idxs] - alpha)^2)
+        arm_metrics[code, "mean_allocation_bias"]   <- mean(alloc_vec[idxs])
+        
+        if(chronobias_type == "linear") {
+          arm_metrics[code, "mean_chronological_bias"] <- mean(beta_time * s_t[idxs])
+        } else if(chronobias_type == "stepwise") {
+          mean_bias <- mean(chronobias_incr[period_i[idxs]])
+          arm_metrics[code, "mean_chronological_bias"] <- mean_bias
+        } else if (chronobias_type == "inv_u") {
+          mean_bias <- mean(ifelse(times_i[idxs] < mid_point,
+                                   beta_time * times_i[idxs]/expected_total,
+                                   -beta_time * (times_i[idxs] - mid_point)/expected_total + 
+                                     beta_time * (mid_point/expected_total)))
+          arm_metrics[code, "mean_chronological_bias"] <- mean_bias
+        } else if (chronobias_type == "seasonal") {
+          mean_bias <- mean(beta_time * sin(4 * pi * times_i[idxs] / expected_total))
+          arm_metrics[code, "mean_chronological_bias"] <- mean_bias
+        }
+        
       }
     }
     
@@ -996,6 +1045,7 @@ platform_trials_simulation <- function(
   res$concurrent_only <- concurrent_only
   res$alloc_bias      <- alloc_bias
   res$beta_time       <- beta_time
+  res$chronobias_incr <- chronobias_incr
   res$expected_total  <- expected_total
   res$alpha           <- alpha
   res$test_side       <- test_side
@@ -1017,6 +1067,8 @@ summarize_runs <- function(n_sim = 500,
                            concurrent_only = TRUE,
                            expected_total = 200,
                            beta_time = 0,
+                           chronobias_incr = 0,
+                           chronobias_type = "linear",
                            rand_mode = "block",
                            block_factor = 1,
                            alloc_bias = 0,
@@ -1030,6 +1082,8 @@ summarize_runs <- function(n_sim = 500,
                                               concurrent_only=concurrent_only,
                                               expected_total=expected_total,
                                               beta_time=beta_time,
+                                              chronobias_incr=chronobias_incr,
+                                              chronobias_type = chronobias_type,
                                               rand_mode=rand_mode,
                                               block_factor=block_factor,
                                               alloc_bias=alloc_bias,
