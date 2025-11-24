@@ -23,6 +23,12 @@ arm_to_code <- function(ch) match(ch, c("A","B","C","D"))
 #     - Asserts no allocations to closed arms
 #     - Prints planned, observed, and used windows + realized sample sizes
 # ============================================================
+# ============================================================
+# (1) RANDOMIZATION SEQUENCE AUDIT 
+#     - Prints core trial settings first
+#     - Asserts no allocations to closed arms
+#     - Prints planned, observed, and used windows + realized sample sizes
+# ============================================================
 audit_randomization <- function(res, arm_start, N = 100) {
   if (is.null(res$trace_df)) stop("trace_df is missing. Call platform_trials_simulation(return_detail=TRUE).")
   tr <- res$trace_df
@@ -69,12 +75,15 @@ audit_randomization <- function(res, arm_start, N = 100) {
   
   # ---- sequence (first N) ----
   n <- min(N, nrow(tr))
-  # open set: comma-separated labels -> integer codes in 1..length(arms_all)
+  
+  # open set in trace_df is a comma-separated string of arm labels, e.g. "A,B,D"
   parse_open <- function(s) {
     if (is.na(s) || nchar(s) == 0) return(integer(0))
-    match(strsplit(s, ",", fixed = TRUE)[[1]], arms_all)
+    labs <- strsplit(s, ",", fixed = TRUE)[[1]]
+    match(labs, arms_all)
   }
   open_list <- lapply(tr$open[seq_len(n)], parse_open)
+  
   assign_seq <- match(tr$assigned[seq_len(n)], arms_all)
   times      <- tr$t[seq_len(n)]
   
@@ -578,4 +587,157 @@ calc_rejection_summary(n_sim = 5000,
                        alloc_bias = 0,
                        alpha=0.025,
                        test_side="one.sided")
+
+
+###############
+
+# ============================================================
+# BIGSTICK AUDIT (one-step)
+# Mirrors next_assignment() logic for rand_mode = "bigstick"
+# Uses per-period local_counts (*_local) in trace_df.
+# ============================================================
+audit_bigstick_onestep <- function(res, bigstick_a, N = 200) {
+  if (is.null(res$trace_df)) stop("trace_df is missing. Call platform_trials_simulation(return_detail=TRUE).")
+  tr <- res$trace_df
+  
+  rand_mode_used <- res$rand_mode %||% "?"
+  if (!identical(rand_mode_used, "bigstick")) {
+    warning(sprintf("audit_bigstick_onestep(): rand_mode is '%s', not 'bigstick'.", rand_mode_used))
+  }
+  
+  # arm names from *_local columns (these mirror local_counts in platform_trials_simulation)
+  local_cols <- grep("_local$", names(tr), value = TRUE)
+  if (!length(local_cols)) stop("No *_local columns found in trace_df; cannot audit bigstick.")
+  arms_all <- sub("_local$", "", local_cols)
+  
+  # helper: parse open set labels -> arm labels
+  parse_open <- function(s) {
+    if (is.na(s) || nchar(s) == 0) return(character(0))
+    strsplit(s, ",", fixed = TRUE)[[1]]
+  }
+  
+  n <- min(N, nrow(tr))
+  imbalance  <- rep(NA_integer_, n)
+  max_open   <- rep(NA_integer_, n)
+  min_open   <- rep(NA_integer_, n)
+  rule_type  <- rep(NA_character_, n)  # "free" or "restricted"
+  ok         <- rep(NA, n)
+  allowed    <- vector("list", n)
+  
+  for (i in seq_len(n)) {
+    open_arms <- parse_open(tr$open[i])
+    open_arms <- open_arms[open_arms %in% arms_all]
+    if (!length(open_arms)) next
+    
+    # local_counts BEFORE assignment i for the open set
+    lc_row <- setNames(
+      as.numeric(tr[i, paste0(open_arms, "_local"), drop = TRUE]),
+      open_arms
+    )
+    
+    max_c <- max(lc_row)
+    min_c <- min(lc_row)
+    imb   <- max_c - min_c
+    
+    imbalance[i] <- imb
+    max_open[i]  <- max_c
+    min_open[i]  <- min_c
+    
+    # bigstick rule as in next_assignment()
+    if (imb > bigstick_a) {
+      # allocate randomly among arms with smallest per-period counts
+      rule_type[i] <- "restricted"
+      allowed_arms <- names(lc_row)[lc_row == min_c]
+    } else {
+      # equal randomization among all open arms
+      rule_type[i] <- "free"
+      allowed_arms <- names(lc_row)
+    }
+    allowed[[i]] <- allowed_arms
+    
+    assigned_arm <- tr$assigned[i]
+    ok[i] <- assigned_arm %in% allowed_arms
+  }
+  
+  audit_df <- data.frame(
+    i         = seq_len(n),
+    t         = tr$t[seq_len(n)],
+    assigned  = tr$assigned[seq_len(n)],
+    imbalance = imbalance,
+    max_open  = max_open,
+    min_open  = min_open,
+    rule_type = rule_type,
+    ok        = ok,
+    stringsAsFactors = FALSE
+  )
+  audit_df$allowed_arms <- vapply(
+    allowed,
+    function(x) if (is.null(x)) "" else paste(x, collapse = ","),
+    character(1)
+  )
+  
+  cat("\n=== BIGSTICK ONE-STEP AUDIT (first", n, "allocations) ===\n")
+  cat(" rand_mode  =", rand_mode_used, "\n")
+  cat(" bigstick_a =", bigstick_a, "\n")
+  
+  valid_rows <- !is.na(audit_df$ok)
+  if (any(valid_rows)) {
+    viol_rate <- mean(!audit_df$ok[valid_rows])
+    cat(sprintf(" Checked %d allocations with a defined rule.\n", sum(valid_rows)))
+    cat(sprintf(" Violations of bigstick rule: %d (%.2f%%)\n",
+                sum(!audit_df$ok[valid_rows]),
+                100 * viol_rate))
+  } else {
+    cat(" No allocations with a defined rule.\n")
+  }
+  
+  if (any(valid_rows) && any(!audit_df$ok[valid_rows])) {
+    cat("\n--- EXAMPLES OF VIOLATIONS (up to 20 rows) ---\n")
+    print(utils::head(audit_df[valid_rows & !audit_df$ok, ], 20), row.names = FALSE)
+  } else if (any(valid_rows)) {
+    cat(" No bigstick rule violations detected. ✅\n")
+  }
+  
+  invisible(audit_df)
+}
+
+
+
+ex_bs <- platform_trials_simulation(
+  return_detail  = TRUE,
+  max_group_size = 30,
+  mu             = c(A=0,B=0,D=0),
+  alpha          = 0.05,
+  arm_start      = c(A=1,B=10,D=1),
+  concurrent_only= TRUE,
+  expected_total = 200,
+  beta_time      = 0,
+  rand_mode      = "bigstick",
+  block_factor   = 1,
+  alloc_bias     = 0,
+  bigstick_a     = 2L,
+  exp_arms       = c("A","B")         # <- important
+)
+
+audit_randomization(ex_bs, arm_start = c(A=1,B=10,D=1), N = 20)
+audit_bigstick_onestep(ex_bs, bigstick_a = 2L, N = 150)
+
+
+set.seed(1)
+ex_bs <- platform_trials_simulation(
+  return_detail  = TRUE,
+  max_group_size = 30,
+  mu             = c(A=0,B=0,D=0),
+  alpha          = 0.05,
+  arm_start      = c(A=1,B=10,D=1),
+  concurrent_only= TRUE,
+  expected_total = 200,
+  beta_time      = 0,
+  rand_mode      = "bigstick",   # or "block", "complete"
+  block_factor   = 1,
+  alloc_bias     = 0,
+  bigstick_a     = 2L,
+  exp_arms       = c("A","B"),
+  two_step       = TRUE          # to force the two-step branch
+)
 

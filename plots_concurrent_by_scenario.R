@@ -48,21 +48,21 @@ message("Writing outputs to: ", normalizePath(out_dir, mustWork = FALSE))
 # --- robust UTF-8 plotting on headless nodes (Cairo devices) ---
 try(Sys.setlocale("LC_CTYPE", "en_US.UTF-8"), silent = TRUE)
 use_cairo <- TRUE
-png_device <- function(...) if (use_cairo) grDevices::png(type = "cairo", ...) else grDevices::png(...)
 pdf_device <- function(...) if (use_cairo) grDevices::cairo_pdf(...) else grDevices::pdf(...)
 
 # --- simulator ---
-source("simulation_functions.R")
+source("PT_bias/simulation_functions.R")
 
 # --- core sweep for one panel ---
 .run_sweep <- function(
-    rand_mode       = c("complete","block"),
+    rand_mode       = c("complete","block","bigstick"),
     block_factor    = 1L,
     alloc_on        = FALSE,
     chrono_on       = FALSE,
     concurrent_only = TRUE,
     analysis_model  = c("ttest","lm_time"),
-    seed_bump       = 0L
+    seed_bump       = 0L,
+    two_step        = FALSE
 ) {
   rand_mode      <- match.arg(rand_mode)
   analysis_model <- match.arg(analysis_model)
@@ -91,7 +91,8 @@ source("simulation_functions.R")
       test_side      = test_side,
       alternative    = alternative,
       bias_policy    = "favor_B",
-      analysis_model = analysis_model
+      analysis_model = analysis_model,
+      two_step       = two_step
     )
     
     pr   <- out$per_comparison_rejection_rate
@@ -115,26 +116,59 @@ source("simulation_functions.R")
   do.call(rbind, rows)
 }
 
-# --- assemble 4 panels for one scenario + one model ---
+# --- assemble 4 panels for one scenario + one model (1-step) ---
 build_panel_data_single_model <- function(alloc_on, chrono_on, concurrent_only, scenario_label, analysis_model = "ttest") {
-  d_complete <- .run_sweep("complete", 1L, alloc_on, chrono_on, concurrent_only, analysis_model, seed_bump = 0L);  d_complete$panel <- "Complete randomization"
-  d_b1       <- .run_sweep("block",    1L, alloc_on, chrono_on, concurrent_only, analysis_model, seed_bump = 10L); d_b1$panel       <- "Block randomization (1*arms)"
-  d_b2       <- .run_sweep("block",    2L, alloc_on, chrono_on, concurrent_only, analysis_model, seed_bump = 20L); d_b2$panel       <- "Block randomization (2*arms)"
-  d_b4       <- .run_sweep("block",    8L, alloc_on, chrono_on, concurrent_only, analysis_model, seed_bump = 40L); d_b4$panel       <- "Block randomization (8*arms)"
-  
-  dat <- rbind(d_complete, d_b1, d_b2, d_b4)
-  dat$series   <- factor(dat$series, levels = c("A","B","FWER"))
-  dat$scenario <- scenario_label
-  dat$model    <- analysis_model
-  dat
+  d_b1   <- .run_sweep("block",    1L, alloc_on, chrono_on, concurrent_only, analysis_model,
+                       seed_bump = 10L, two_step = FALSE);  d_b1$panel   <- "Block randomization (1*arms, 1-step)"
+                       d_b4   <- .run_sweep("block",    8L, alloc_on, chrono_on, concurrent_only, analysis_model,
+                                            seed_bump = 40L, two_step = FALSE);  d_b4$panel   <- "Block randomization (8*arms, 1-step)"
+                       d_bs   <- .run_sweep("bigstick", 1L, alloc_on, chrono_on, concurrent_only, analysis_model,
+                                            seed_bump = 20L, two_step = FALSE);  d_bs$panel   <- "Big-stick design (a = 2, 1-step)"
+                       d_comp <- .run_sweep("complete", 1L, alloc_on, chrono_on, concurrent_only, analysis_model,
+                                            seed_bump = 0L,  two_step = FALSE);  d_comp$panel <- "Complete randomization (1-step)"
+                       
+                       dat <- rbind(d_b1, d_b4, d_bs, d_comp)
+                       dat$series   <- factor(dat$series, levels = c("A","B","FWER"))
+                       dat$scenario <- scenario_label
+                       dat$model    <- analysis_model
+                       dat
 }
 
-# --- assemble nonconcurrent overlay (t-test vs ANOVA) ---
+# --- assemble 4 panels for one scenario + one model (2-step) ---
+build_panel_data_single_model_2step <- function(alloc_on, chrono_on, concurrent_only, scenario_label, analysis_model = "ttest") {
+  d_b1   <- .run_sweep("block",    1L, alloc_on, chrono_on, concurrent_only, analysis_model,
+                       seed_bump = 110L, two_step = TRUE);  d_b1$panel   <- "Block randomization (1*arms, 2-step)"
+                       d_b4   <- .run_sweep("block",    8L, alloc_on, chrono_on, concurrent_only, analysis_model,
+                                            seed_bump = 140L, two_step = TRUE);  d_b4$panel   <- "Block randomization (8*arms, 2-step)"
+                       d_bs   <- .run_sweep("bigstick", 1L, alloc_on, chrono_on, concurrent_only, analysis_model,
+                                            seed_bump = 120L, two_step = TRUE);  d_bs$panel   <- "Big-stick design (a = 2, 2-step)"
+                       d_comp <- .run_sweep("complete", 1L, alloc_on, chrono_on, concurrent_only, analysis_model,
+                                            seed_bump = 100L, two_step = TRUE);  d_comp$panel <- "Complete randomization (2-step)"
+                       
+                       dat <- rbind(d_b1, d_b4, d_bs, d_comp)
+                       dat$series   <- factor(dat$series, levels = c("A","B","FWER"))
+                       dat$scenario <- scenario_label
+                       dat$model    <- analysis_model
+                       dat
+}
+
+# --- assemble nonconcurrent overlay (t-test vs ANOVA, 1-step) ---
 build_panel_data_overlay_models <- function(alloc_on, chrono_on, scenario_label) {
   d_t  <- build_panel_data_single_model(alloc_on, chrono_on, concurrent_only = FALSE,
                                         scenario_label = scenario_label, analysis_model = "ttest")
   d_an <- build_panel_data_single_model(alloc_on, chrono_on, concurrent_only = FALSE,
                                         scenario_label = scenario_label, analysis_model = "lm_time")
+  dat <- rbind(d_t, d_an)
+  dat$model <- factor(dat$model, levels = c("ttest","lm_time"), labels = c("t-test","ANOVA"))
+  dat
+}
+
+# --- assemble nonconcurrent overlay (t-test vs ANOVA, 2-step) ---
+build_panel_data_overlay_models_2step <- function(alloc_on, chrono_on, scenario_label) {
+  d_t  <- build_panel_data_single_model_2step(alloc_on, chrono_on, concurrent_only = FALSE,
+                                              scenario_label = scenario_label, analysis_model = "ttest")
+  d_an <- build_panel_data_single_model_2step(alloc_on, chrono_on, concurrent_only = FALSE,
+                                              scenario_label = scenario_label, analysis_model = "lm_time")
   dat <- rbind(d_t, d_an)
   dat$model <- factor(dat$model, levels = c("ttest","lm_time"), labels = c("t-test","ANOVA"))
   dat
@@ -148,10 +182,9 @@ limits_cartesian <- function() {
   coord_cartesian(ylim = c(0, 0.10), xlim = c(0, 48))
 }
 
-# --- plotting helpers ---
+# --- plotting helpers (CSV + PDF only) ---
 plot_and_save_single_model <- function(dat, title_top, subtitle, file_stub) {
   csv_path <- file.path(out_dir, paste0(file_stub, ".csv"))
-  png_path <- file.path(out_dir, paste0(file_stub, ".png"))
   pdf_path <- file.path(out_dir, paste0(file_stub, ".pdf"))
   
   write.csv(dat, csv_path, row.names = FALSE)
@@ -179,20 +212,16 @@ plot_and_save_single_model <- function(dat, title_top, subtitle, file_stub) {
       plot.title = element_text(face = "bold")
     )
   
-  png_device(filename = png_path, width = 12, height = 3.8, units = "in", res = 150)
-  print(p); dev.off()
   pdf_device(file = pdf_path, width = 12, height = 3.8)
   print(p); dev.off()
   
   message("Wrote:")
   message("  Data: ", csv_path)
-  message("  PNG : ", png_path)
   message("  PDF : ", pdf_path)
 }
 
 plot_and_save_overlay_models <- function(dat, title_top, subtitle, file_stub) {
   csv_path <- file.path(out_dir, paste0(file_stub, ".csv"))
-  png_path <- file.path(out_dir, paste0(file_stub, ".png"))
   pdf_path <- file.path(out_dir, paste0(file_stub, ".pdf"))
   
   write.csv(dat, csv_path, row.names = FALSE)
@@ -223,39 +252,51 @@ plot_and_save_overlay_models <- function(dat, title_top, subtitle, file_stub) {
       plot.title = element_text(face = "bold")
     )
   
-  png_device(filename = png_path, width = 12, height = 3.8, units = "in", res = 150)
-  print(p); dev.off()
   pdf_device(file = pdf_path, width = 12, height = 3.8)
   print(p); dev.off()
   
   message("Wrote (overlay models):")
   message("  Data: ", csv_path)
-  message("  PNG : ", png_path)
   message("  PDF : ", pdf_path)
 }
 
 # ============================================================
-# Concurrent (t-test), 4 scenarios — ASCII subtitles
+# Concurrent (t-test), 4 scenarios — ASCII subtitles, 1-step
 # ============================================================
 dat_conc_nb   <- build_panel_data_single_model(FALSE, FALSE, TRUE, "No bias",                                   "ttest")
-plot_and_save_single_model(dat_conc_nb,   "Concurrent: Rejection probability vs timing of Arm B", "No bias",                                 "conc_reject_vs_Bstart_no_bias")
+plot_and_save_single_model(dat_conc_nb,   "Concurrent (1-step): Rejection probability vs timing of Arm B", "No bias",                                 "conc_reject_vs_Bstart_no_bias")
 
 dat_conc_ab   <- build_panel_data_single_model(TRUE,  FALSE, TRUE, "Allocation bias only (eta = 0.08)",        "ttest")
-plot_and_save_single_model(dat_conc_ab,   "Concurrent: Rejection probability vs timing of Arm B", "Allocation bias only (eta = 0.08)",        "conc_reject_vs_Bstart_alloc_bias")
+plot_and_save_single_model(dat_conc_ab,   "Concurrent (1-step): Rejection probability vs timing of Arm B", "Allocation bias only (eta = 0.08)",        "conc_reject_vs_Bstart_alloc_bias")
 
 dat_conc_cb   <- build_panel_data_single_model(FALSE, TRUE,  TRUE, "Chronological bias only (beta = 0.16)",     "ttest")
-plot_and_save_single_model(dat_conc_cb,   "Concurrent: Rejection probability vs timing of Arm B", "Chronological bias only (beta = 0.16)",     "conc_reject_vs_Bstart_chrono_bias")
+plot_and_save_single_model(dat_conc_cb,   "Concurrent (1-step): Rejection probability vs timing of Arm B", "Chronological bias only (beta = 0.16)",     "conc_reject_vs_Bstart_chrono_bias")
 
 dat_conc_both <- build_panel_data_single_model(TRUE,  TRUE,  TRUE, "Allocation + chronological (eta = 0.08, beta = 0.16)", "ttest")
-plot_and_save_single_model(dat_conc_both, "Concurrent: Rejection probability vs timing of Arm B", "Allocation + chronological (eta = 0.08, beta = 0.16)", "conc_reject_vs_Bstart_alloc_plus_chrono")
+plot_and_save_single_model(dat_conc_both, "Concurrent (1-step): Rejection probability vs timing of Arm B", "Allocation + chronological (eta = 0.08, beta = 0.16)", "conc_reject_vs_Bstart_alloc_plus_chrono")
 
 # ============================================================
-# Nonconcurrent (overlay t-test vs ANOVA), 4 scenarios — ASCII subtitles
+# Concurrent (t-test), 4 scenarios — 2-step randomization
+# ============================================================
+dat_conc_nb_2   <- build_panel_data_single_model_2step(FALSE, FALSE, TRUE, "No bias",                                   "ttest")
+plot_and_save_single_model(dat_conc_nb_2,   "Concurrent (2-step): Rejection probability vs timing of Arm B", "No bias",                                 "conc_reject_vs_Bstart_no_bias_2step")
+
+dat_conc_ab_2   <- build_panel_data_single_model_2step(TRUE,  FALSE, TRUE, "Allocation bias only (eta = 0.08)",        "ttest")
+plot_and_save_single_model(dat_conc_ab_2,   "Concurrent (2-step): Rejection probability vs timing of Arm B", "Allocation bias only (eta = 0.08)",        "conc_reject_vs_Bstart_alloc_bias_2step")
+
+dat_conc_cb_2   <- build_panel_data_single_model_2step(FALSE, TRUE,  TRUE, "Chronological bias only (beta = 0.16)",     "ttest")
+plot_and_save_single_model(dat_conc_cb_2,   "Concurrent (2-step): Rejection probability vs timing of Arm B", "Chronological bias only (beta = 0.16)",     "conc_reject_vs_Bstart_chrono_bias_2step")
+
+dat_conc_both_2 <- build_panel_data_single_model_2step(TRUE,  TRUE,  TRUE, "Allocation + chronological (eta = 0.08, beta = 0.16)", "ttest")
+plot_and_save_single_model(dat_conc_both_2, "Concurrent (2-step): Rejection probability vs timing of Arm B", "Allocation + chronological (eta = 0.08, beta = 0.16)", "conc_reject_vs_Bstart_alloc_plus_chrono_2step")
+
+# ============================================================
+# Nonconcurrent (overlay t-test vs ANOVA), 4 scenarios — 1-step
 # ============================================================
 dat_non_nb   <- build_panel_data_overlay_models(FALSE, FALSE, "No bias")
 plot_and_save_overlay_models(
   dat_non_nb,
-  title_top = "Nonconcurrent: Rejection probability vs timing of Arm B",
+  title_top = "Nonconcurrent (1-step): Rejection probability vs timing of Arm B",
   subtitle  = "Overlay: t-test vs ANOVA — No bias",
   file_stub = "nonconc_reject_vs_Bstart_no_bias_overlay_models"
 )
@@ -263,7 +304,7 @@ plot_and_save_overlay_models(
 dat_non_ab   <- build_panel_data_overlay_models(TRUE,  FALSE, "Allocation bias only (eta = 0.08)")
 plot_and_save_overlay_models(
   dat_non_ab,
-  title_top = "Nonconcurrent: Rejection probability vs timing of Arm B",
+  title_top = "Nonconcurrent (1-step): Rejection probability vs timing of Arm B",
   subtitle  = "Overlay: t-test vs ANOVA — Allocation bias only (eta = 0.08)",
   file_stub = "nonconc_reject_vs_Bstart_alloc_bias_overlay_models"
 )
@@ -271,7 +312,7 @@ plot_and_save_overlay_models(
 dat_non_cb   <- build_panel_data_overlay_models(FALSE, TRUE,  "Chronological bias only (beta = 0.16)")
 plot_and_save_overlay_models(
   dat_non_cb,
-  title_top = "Nonconcurrent: Rejection probability vs timing of Arm B",
+  title_top = "Nonconcurrent (1-step): Rejection probability vs timing of Arm B",
   subtitle  = "Overlay: t-test vs ANOVA — Chronological bias only (beta = 0.16)",
   file_stub = "nonconc_reject_vs_Bstart_chrono_bias_overlay_models"
 )
@@ -279,9 +320,44 @@ plot_and_save_overlay_models(
 dat_non_both <- build_panel_data_overlay_models(TRUE,  TRUE,  "Allocation + chronological (eta = 0.08, beta = 0.16)")
 plot_and_save_overlay_models(
   dat_non_both,
-  title_top = "Nonconcurrent: Rejection probability vs timing of Arm B",
+  title_top = "Nonconcurrent (1-step): Rejection probability vs timing of Arm B",
   subtitle  = "Overlay: t-test vs ANOVA — Allocation + chronological (eta = 0.08, beta = 0.16)",
   file_stub = "nonconc_reject_vs_Bstart_alloc_plus_chrono_overlay_models"
+)
+
+# ============================================================
+# Nonconcurrent (overlay t-test vs ANOVA), 4 scenarios — 2-step
+# ============================================================
+dat_non_nb_2   <- build_panel_data_overlay_models_2step(FALSE, FALSE, "No bias")
+plot_and_save_overlay_models(
+  dat_non_nb_2,
+  title_top = "Nonconcurrent (2-step): Rejection probability vs timing of Arm B",
+  subtitle  = "Overlay: t-test vs ANOVA — No bias",
+  file_stub = "nonconc_reject_vs_Bstart_no_bias_overlay_models_2step"
+)
+
+dat_non_ab_2   <- build_panel_data_overlay_models_2step(TRUE,  FALSE, "Allocation bias only (eta = 0.08)")
+plot_and_save_overlay_models(
+  dat_non_ab_2,
+  title_top = "Nonconcurrent (2-step): Rejection probability vs timing of Arm B",
+  subtitle  = "Overlay: t-test vs ANOVA — Allocation bias only (eta = 0.08)",
+  file_stub = "nonconc_reject_vs_Bstart_alloc_bias_overlay_models_2step"
+)
+
+dat_non_cb_2   <- build_panel_data_overlay_models_2step(FALSE, TRUE,  "Chronological bias only (beta = 0.16)")
+plot_and_save_overlay_models(
+  dat_non_cb_2,
+  title_top = "Nonconcurrent (2-step): Rejection probability vs timing of Arm B",
+  subtitle  = "Overlay: t-test vs ANOVA — Chronological bias only (beta = 0.16)",
+  file_stub = "nonconc_reject_vs_Bstart_chrono_bias_overlay_models_2step"
+)
+
+dat_non_both_2 <- build_panel_data_overlay_models_2step(TRUE,  TRUE,  "Allocation + chronological (eta = 0.08, beta = 0.16)")
+plot_and_save_overlay_models(
+  dat_non_both_2,
+  title_top = "Nonconcurrent (2-step): Rejection probability vs timing of Arm B",
+  subtitle  = "Overlay: t-test vs ANOVA — Allocation + chronological (eta = 0.08, beta = 0.16)",
+  file_stub = "nonconc_reject_vs_Bstart_alloc_plus_chrono_overlay_models_2step"
 )
 
 message("All figures written to: ", normalizePath(out_dir, mustWork = FALSE))

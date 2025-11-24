@@ -1,10 +1,14 @@
 #!/usr/bin/env Rscript
 # ============================================================
-# FIGURE: Total Bias Differences (Arm − concurrent control)
+# FIGURE: Mean Bias Differences (Arm − control, by control set)
 # - X: Randomization procedure
 # - Rows: Arm A, Arm B
-# - Columns: Allocation bias, Chronological bias
+# - Columns: Allocation bias, Chronological bias  × Control set
+#   Control sets:
+#     • Concurrent only
+#     • Nonconcurrent
 # - Thin dashed line at y=0; colorful violins + boxplots
+# - Value per run: mean(arm) − mean(control)
 # ============================================================
 
 suppressPackageStartupMessages({
@@ -14,7 +18,7 @@ suppressPackageStartupMessages({
 })
 
 # ---------- knobs ----------
-n_runs    <- as.integer(Sys.getenv("N_RUNS",    "300"))
+n_runs    <- as.integer(Sys.getenv("N_RUNS",    "3000"))
 seed_base <- as.integer(Sys.getenv("SEED_BASE", "20251107"))
 out_dir   <- Sys.getenv("OUT_DIR", unset = "results")
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
@@ -25,7 +29,7 @@ max_group_size_exp <- 24L
 B_start_fixed      <- 16L
 alloc_bias_val     <- 0.08
 chrono_beta_val    <- 0.16
-expected_total     <- 96L  # <-- ensure this exists in workers
+expected_total     <- 96L  # <- ensure this exists in workers
 
 # ---------- simulator ----------
 if (file.exists("simulation_functions.R")) source("simulation_functions.R")
@@ -33,22 +37,28 @@ if (!exists("platform_trials_simulation"))
   stop("platform_trials_simulation() not found. Please provide it via simulation_functions.R")
 
 # ---------- randomization procedures ----------
+# Order: Block(1*arms), Block(8*arms), Big-stick(a=2), Complete
 procedures <- list(
-  list(key = "Complete randomization",           rand_mode="complete", block_factor=1L),
-  list(key = "Block randomization (1*arms)",     rand_mode="block",    block_factor=1L),
-  list(key = "Block randomization (2*arms)",     rand_mode="block",    block_factor=2L),
-  list(key = "Block randomization (8*arms)",     rand_mode="block",    block_factor=8L)
+  list(key = "Block randomization (1*arms)", rand_mode = "block",    block_factor = 1L),
+  list(key = "Block randomization (8*arms)", rand_mode = "block",    block_factor = 8L),
+  list(key = "Big-stick design (a = 2)",     rand_mode = "bigstick", block_factor = 1L),
+  list(key = "Complete randomization",       rand_mode = "complete", block_factor = 1L)
 )
 
-# ---------- one run -> total bias differences (Arm − concurrent control) ----------
+# ---------- one run -> mean bias differences (Arm − control) ----------
+# Produces rows for both control sets:
+#   1) Concurrent only:        D in [t_open(arm), t_close(arm)]
+#   2) Concurrent + prior:     D with t <= t_close(arm)
+# Value in each row: mean(arm) − mean(control)
 one_run_extract <- function(rand_mode, block_factor, rep_seed,
                             B_start_fixed, max_group_size_exp,
-                            alloc_bias_val, chrono_beta_val) {
+                            alloc_bias_val, chrono_beta_val,
+                            two_step) {
   
   set.seed(rep_seed)
   res <- platform_trials_simulation(
     exp_arms        = c("A","B"),
-    arm_start       = c(A=0L, B=B_start_fixed),
+    arm_start       = c(A = 0L, B = B_start_fixed),
     max_group_size  = max_group_size_exp,
     expected_total  = expected_total,
     alpha           = 0.025,
@@ -58,16 +68,17 @@ one_run_extract <- function(rand_mode, block_factor, rep_seed,
     block_factor    = block_factor,
     alloc_bias      = alloc_bias_val,
     beta_time       = chrono_beta_val,
-    concurrent_only = TRUE,
+    concurrent_only = TRUE,        # analysis setting; we compute control sets below
     analysis_model  = "ttest",
     bias_policy     = "favor_all_exp",
-    return_detail   = TRUE
+    return_detail   = TRUE,
+    two_step        = two_step
   )
   
   tr <- res$trace_df
   if (is.null(tr) || !nrow(tr)) return(data.frame())
   
-  # Use sim's expected_total if present (fallback to global)
+  # time trend values per allocation time
   et <- if (!is.null(res$expected_total)) res$expected_total else expected_total
   s_t <- pmin(tr$t, et) / et
   chrono_val <- chrono_beta_val * s_t
@@ -77,23 +88,53 @@ one_run_extract <- function(rand_mode, block_factor, rep_seed,
     t1 <- res$window_close[[arm_name]]
     if (is.na(t0) || is.na(t1) || t1 < t0) return(NULL)
     
-    in_win <- tr$t >= t0 & tr$t <= t1
-    arm_idx <- which(in_win & tr$assigned == arm_name)
-    D_idx   <- which(in_win & tr$assigned == "D")
+    # indices for allocations
+    in_win   <- tr$t >= t0 & tr$t <= t1
+    arm_idx  <- which(in_win & tr$assigned == arm_name)
     
-    total_alloc_arm <- if (length(arm_idx)) sum(tr$bias_val[arm_idx]) else 0
-    total_alloc_D   <- if (length(D_idx))   sum(tr$bias_val[D_idx])   else 0
-    diff_alloc      <- total_alloc_arm - total_alloc_D
+    # control sets
+    D_conc_idx   <- which(in_win & tr$assigned == "D")          # concurrent only
+    D_conc_prior <- which(tr$assigned == "D" & tr$t <= t1)      # nonconcurrent (≤ close)
     
-    total_chron_arm <- if (length(arm_idx)) sum(chrono_val[arm_idx]) else 0
-    total_chron_D   <- if (length(D_idx))   sum(chrono_val[D_idx])   else 0
-    diff_chron      <- total_chron_arm - total_chron_D
+    # ---- Allocation bias (mean difference) ----
+    mean_alloc_arm   <- if (length(arm_idx))      mean(tr$bias_val[arm_idx])      else 0
+    mean_alloc_D_c   <- if (length(D_conc_idx))   mean(tr$bias_val[D_conc_idx])   else 0
+    mean_alloc_D_cp  <- if (length(D_conc_prior)) mean(tr$bias_val[D_conc_prior]) else 0
     
-    data.frame(
-      arm    = arm_name,
-      metric = c("Allocation bias","Chronological bias"),
-      value  = c(diff_alloc, diff_chron),
-      stringsAsFactors = FALSE
+    # ---- Chronological bias (mean difference) ----
+    mean_chron_arm   <- if (length(arm_idx))      mean(chrono_val[arm_idx])      else 0
+    mean_chron_D_c   <- if (length(D_conc_idx))   mean(chrono_val[D_conc_idx])   else 0
+    mean_chron_D_cp  <- if (length(D_conc_prior)) mean(chrono_val[D_conc_prior]) else 0
+    
+    rbind(
+      data.frame(
+        arm         = arm_name,
+        metric      = "Allocation bias",
+        control_set = "Concurrent only",
+        value       = mean_alloc_arm - mean_alloc_D_c,
+        stringsAsFactors = FALSE
+      ),
+      data.frame(
+        arm         = arm_name,
+        metric      = "Allocation bias",
+        control_set = "Nonconcurrent",
+        value       = mean_alloc_arm - mean_alloc_D_cp,
+        stringsAsFactors = FALSE
+      ),
+      data.frame(
+        arm         = arm_name,
+        metric      = "Chronological bias",
+        control_set = "Concurrent only",
+        value       = mean_chron_arm - mean_chron_D_c,
+        stringsAsFactors = FALSE
+      ),
+      data.frame(
+        arm         = arm_name,
+        metric      = "Chronological bias",
+        control_set = "Nonconcurrent",
+        value       = mean_chron_arm - mean_chron_D_cp,
+        stringsAsFactors = FALSE
+      )
     )
   }
   
@@ -103,16 +144,16 @@ one_run_extract <- function(rand_mode, block_factor, rep_seed,
 }
 
 # ---------- collect all procedures ----------
-collect_all <- function() {
+collect_all <- function(two_step = FALSE) {
   cores <- as.integer(Sys.getenv("SLURM_CPUS_PER_TASK", unset = "1"))
   cores <- max(1L, cores)
   
   tasks <- list()
   for (p_i in seq_along(procedures)) {
-    pr <- procedures[[p_i]]
+    pr    <- procedures[[p_i]]
     seeds <- seed_base + seq_len(n_runs) + 1000L * p_i
     for (r in seq_len(n_runs)) {
-      tasks[[length(tasks)+1L]] <- list(
+      tasks[[length(tasks) + 1L]] <- list(
         rand_mode          = pr$rand_mode,
         block_factor       = pr$block_factor,
         rep_seed           = seeds[r],
@@ -133,7 +174,8 @@ collect_all <- function() {
       B_start_fixed      = task$B_start_fixed,
       max_group_size_exp = task$max_group_size_exp,
       alloc_bias_val     = task$alloc_bias_val,
-      chrono_beta_val    = task$chrono_beta_val
+      chrono_beta_val    = task$chrono_beta_val,
+      two_step           = two_step
     )
     if (nrow(df)) df$procedure <- task$procedure
     df
@@ -148,12 +190,12 @@ collect_all <- function() {
       if (file.exists("simulation_functions.R")) source("simulation_functions.R")
       NULL
     })
-    # *** Export ALL knobs needed by workers ***
+    # export all knobs/functions needed by workers
     clusterExport(
       cl,
       varlist = c("one_run_extract","procedures","n_runs","seed_base",
                   "B_start_fixed","max_group_size_exp","alloc_bias_val",
-                  "chrono_beta_val","expected_total"),
+                  "chrono_beta_val","expected_total","two_step"),
       envir = environment()
     )
     parLapply(cl, tasks, run_task)
@@ -162,35 +204,43 @@ collect_all <- function() {
   }
   
   bias_rows <- do.call(rbind, parts)
-  if (!nrow(bias_rows)) stop("No total-bias rows produced — check simulation output.")
+  if (!nrow(bias_rows)) stop("No mean-bias rows produced — check simulation output.")
   
   bias_rows$procedure <- factor(
     bias_rows$procedure,
-    levels = c("Complete randomization",
-               "Block randomization (1*arms)",
-               "Block randomization (2*arms)",
-               "Block randomization (8*arms)")
+    levels = c("Block randomization (1*arms)",
+               "Block randomization (8*arms)",
+               "Big-stick design (a = 2)",
+               "Complete randomization")
   )
   bias_rows$arm <- factor(bias_rows$arm,
                           levels = c("A","B"),
                           labels = c("Arm A","Arm B"))
   bias_rows$metric <- factor(bias_rows$metric,
                              levels = c("Allocation bias","Chronological bias"))
+  bias_rows$control_set <- factor(
+    bias_rows$control_set,
+    levels = c("Concurrent only","Nonconcurrent")
+  )
   bias_rows
 }
 
-# ---------- plot ----------
-plot_and_save <- function(bias_rows, file_stub = "total_bias_diff_AB") {
+# ---------- plot (CSV + PDF only) ----------
+plot_and_save <- function(bias_rows, file_stub, title_suffix) {
   
   proc_cols <- c(
-    "Complete randomization"           = "#1b9e77",
-    "Block randomization (1*arms)"     = "#d95f02",
-    "Block randomization (2*arms)"     = "#7570b3",
-    "Block randomization (8*arms)"     = "#e7298a"
+    "Block randomization (1*arms)" = "#d95f02",
+    "Block randomization (8*arms)" = "#e7298a",
+    "Big-stick design (a = 2)"     = "#7570b3",
+    "Complete randomization"       = "#1b9e77"
   )
   
   csv_path <- file.path(out_dir, paste0(file_stub, ".csv"))
   write.csv(bias_rows, csv_path, row.names = FALSE)
+  
+  # facet columns by metric × control set
+  bias_rows$facet_col <- interaction(bias_rows$metric, bias_rows$control_set,
+                                     drop = TRUE, sep = " — ")
   
   p <- ggplot(bias_rows, aes(x = procedure, y = value, fill = procedure)) +
     geom_violin(trim = FALSE, alpha = 0.45, color = NA) +
@@ -198,19 +248,22 @@ plot_and_save <- function(bias_rows, file_stub = "total_bias_diff_AB") {
     geom_hline(yintercept = 0, linetype = "dashed", linewidth = 0.3, color = "black") +
     facet_grid(
       rows = vars(arm),
-      cols = vars(metric),
+      cols = vars(facet_col),
       scales = "fixed",
       switch = "y"
     ) +
     scale_fill_manual(values = proc_cols, name = "Randomization") +
     labs(
-      title = "Total bias difference per run (Arm − concurrent control)",
+      title = paste0(
+        "Mean bias difference per run (Arm − control, by control set) — ",
+        title_suffix
+      ),
       subtitle = sprintf(
-        "B starts at %d; η = %.2f; β = %.2f; max patients per arm = %d",
+        "Mean(arm) − Mean(control); B starts at %d; η = %.2f; β = %.2f; max per arm = %d",
         B_start_fixed, alloc_bias_val, chrono_beta_val, max_group_size_exp
       ),
       x = "Randomization procedure",
-      y = "Total difference per run"
+      y = "Mean difference"
     ) +
     theme_minimal(base_size = 12) +
     theme(
@@ -222,18 +275,28 @@ plot_and_save <- function(bias_rows, file_stub = "total_bias_diff_AB") {
       panel.spacing.y = unit(16, "pt")
     )
   
-  png_path <- file.path(out_dir, paste0(file_stub, ".png"))
   pdf_path <- file.path(out_dir, paste0(file_stub, ".pdf"))
-  
-  grDevices::png(filename = png_path, type = "cairo", width = 14, height = 10, units = "in", res = 150)
-  print(p); dev.off()
   grDevices::cairo_pdf(file = pdf_path, width = 14, height = 10)
   print(p); dev.off()
   
-  message("Wrote: ", png_path, " and ", pdf_path, " (data: ", csv_path, ")")
+  message("Wrote PDF + CSV: ", pdf_path, " (data: ", csv_path, ")")
 }
 
 # ---------- run ----------
 set.seed(seed_base)
-bias_rows <- collect_all()
-plot_and_save(bias_rows)
+
+# 1-step randomization
+bias_rows_1 <- collect_all(two_step = FALSE)
+plot_and_save(
+  bias_rows_1,
+  file_stub     = "mean_bias_diff_AB_with_nonconc_1step",
+  title_suffix  = "1-step randomization"
+)
+
+# 2-step randomization
+bias_rows_2 <- collect_all(two_step = TRUE)
+plot_and_save(
+  bias_rows_2,
+  file_stub     = "mean_bias_diff_AB_with_nonconc_2step",
+  title_suffix  = "2-step randomization"
+)
