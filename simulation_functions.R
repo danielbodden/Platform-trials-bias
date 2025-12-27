@@ -1,6 +1,6 @@
 # ============================================================
 #  Platform trials simulation with allocation bias & time trend
-#  for different randomization schemes: Complete randomization & permuted blocks.
+#  for different randomization schemes: Complete randomization, permuted blocks, (generalized) big stick design.
 #  Randomization process restarts whenever a new arm opens or closes.
 #  Treatment arm closes when both it and its matching controls >= max_group_size.
 # ============================================================
@@ -19,7 +19,7 @@ two_sample_t_pooled <- function(x, y) {
   list(t = (mx - my) / se, df = nx + ny - 2)
 }
 
-# ---------- Bias policy helper (with explicit 'no arm' on control–exp ties) ----------
+# ---------- Bias policy helper  ----------
 .decide_bias <- function(open_codes, local_counts, alloc_bias,
                          policy = c("favor_B","favor_all_exp","average"), n_exp) {
   policy <- match.arg(policy)
@@ -87,7 +87,7 @@ two_sample_t_pooled <- function(x, y) {
     }
     
     # Negative: at least one experimental arm has more patients than control,
-    # and none has fewer -> clearly over-represented exp arms
+    # and none has fewer 
     if (any_greater && !any_smaller) {
       # favor control
       return(list(expected = ctrl_code, bias_cat = "neg", bias_val = -alloc_bias))
@@ -227,36 +227,56 @@ two_sample_t_pooled <- function(x, y) {
   return(list(expected = NA_integer_, bias_cat = "neu", bias_val = 0))
 }
 
-.fit_lm_time <- function(y, trt, per, alpha = 0.05,
+
+
+
+.fit_lm_time <- function(y, trt_all, per, target_arm,
+                         alpha = 0.05,
                          test_side = c("two.sided","one.sided"),
                          alternative = c("greater","less")) {
   test_side   <- match.arg(test_side)
   alternative <- match.arg(alternative)
   
-  # Ensure contrasts encode "first period as baseline"
-  trt <- factor(trt, levels = c("ctrl","arm"))
-  per <- droplevels(factor(per))
-  if (nlevels(per) < 2L) {
-    fit <- lm(y ~ trt)
-  } else {
-    # default treatment contrasts: per’s first level is baseline -> ∑_{s=2}^{S} ν_s I(s_j=s)
-    fit <- lm(y ~ trt + per)
+  # Treatment factor with all arms; use global control "D" as reference if present
+  trt_all <- factor(trt_all)
+  if ("D" %in% levels(trt_all)) {
+    trt_all <- stats::relevel(trt_all, ref = "D")
   }
+  
+  # Stepwise period factor
+  per <- droplevels(factor(per))
+  
+  if (nlevels(per) < 2L) {
+    fit <- stats::lm(y ~ trt_all)
+  } else {
+    # This corresponds to η0 + sum θ_k' I(k_j=k') + sum τ_s I(s_j=s)
+    fit <- stats::lm(y ~ trt_all + per)
+  }
+  
   sm <- summary(fit)$coefficients
-  coef_name <- if ("trtarm" %in% rownames(sm)) "trtarm" else grep("^trt", rownames(sm), value = TRUE)[1]
-  if (!length(coef_name)) return(list(reject = FALSE))
+  
+  # Coefficient for target arm vs reference
+  coef_name <- paste0("trt_all", target_arm)
+  if (!coef_name %in% rownames(sm)) {
+    idx <- grep(paste0("^trt_all", target_arm, "$"), rownames(sm))
+    if (!length(idx)) return(list(reject = FALSE))
+    coef_name <- rownames(sm)[idx[1L]]
+  }
   
   beta_hat <- sm[coef_name, "Estimate"]
   p_two    <- sm[coef_name, "Pr(>|t|)"]
   
+  if (!is.finite(p_two)) return(list(reject = FALSE))
+  
   if (test_side == "two.sided") {
-    list(reject = is.finite(p_two) && (p_two < alpha))
+    list(reject = (p_two < alpha))
   } else if (alternative == "greater") {
-    list(reject = is.finite(p_two) && beta_hat > 0 && (p_two/2 < alpha))
+    list(reject = (beta_hat > 0 && p_two/2 < alpha))
   } else {
-    list(reject = is.finite(p_two) && beta_hat < 0 && (p_two/2 < alpha))
+    list(reject = (beta_hat < 0 && p_two/2 < alpha))
   }
 }
+
 
 # Main simulation function
 platform_trials_simulation <- function(
@@ -298,8 +318,7 @@ platform_trials_simulation <- function(
   }
   
   # --- fixed order A,B,C,D (codes 1..4)
-  # <<< EDIT:
-  
+
   if (analysis_model == "anova_period" && isTRUE(concurrent_only)) {
     stop("anova_period is only allowed when concurrent_only = FALSE")
   }
@@ -813,7 +832,7 @@ platform_trials_simulation <- function(
     ctrl_by_cohort_log   <- ctrl_by_cohort_log[seq_len(idx), , drop = FALSE]
   }
   alloc_bias_i <- alloc_bias_i[seq_len(idx)]
-  period_i     <- period_i[seq_len(idx)]          # <<< ADD
+  period_i     <- period_i[seq_len(idx)]         
   
   # linear vs stepwise vs inverted u vs seasonal chronological bias
   if(chronobias_type == "linear") {
@@ -877,83 +896,71 @@ platform_trials_simulation <- function(
       responder_counts[dfor_name, names(tab_ctrl)] <- as.integer(tab_ctrl)
     }
   }
-  
-  # per-arm bias/performance metrics (unchanged)
+  # ----- per-arm bias/performance metrics (uses alloc_bias_i and chr_bias) -----
   if (idx > 0L) {
-    arm_names <- names(mu_vec)
+    arm_names <- names(mu_vec)        
     n_arms    <- length(arm_names)
     alloc_vec <- alloc_bias_i
     
     mse_col <- sprintf("mse_outcome_vs_%.3f", alpha)
     
-    arm_metrics <- matrix(NA_real_, nrow = n_arms, ncol = 3,
-                          dimnames = list(arm_names,
-                                          c(mse_col,
-                                            "mean_allocation_bias",
-                                            "mean_chronological_bias")))
+    # rows: A, B, D, D_for_A, D_for_B  (generalized by exp_arms)
+    add_rows <- paste0("D_for_", exp_arms)
+    all_rows <- c(arm_names, add_rows)
+    
+    arm_metrics <- matrix(
+      NA_real_,
+      nrow = length(all_rows),
+      ncol = 3L,
+      dimnames = list(
+        all_rows,
+        c(mse_col, "mean_allocation_bias", "mean_chronological_bias")
+      )
+    )
+    
+    # experimental arms + global control, by actual assignment code
     for (code in seq_len(n_arms)) {
       idxs <- which(assign_i == code)
-      if (length(idxs) == 0L) next
-      arm_metrics[code, mse_col]                    <- mean((outcomes[idxs] - alpha)^2)
-      arm_metrics[code, "mean_allocation_bias"]     <- mean(alloc_vec[idxs])
-      arm_metrics[code, "mean_chronological_bias"]  <- mean(beta_time * pmin(times_i[idxs], expected_total) / expected_total)
+      if (!length(idxs)) next
+      lab <- arm_names[code]
+      
+      arm_metrics[lab, mse_col]                   <- mean((outcomes[idxs] - alpha)^2)
+      arm_metrics[lab, "mean_allocation_bias"]    <- mean(alloc_vec[idxs])
+      arm_metrics[lab, "mean_chronological_bias"] <- mean(chr_bias[idxs])
     }
     
-    add_rows <- paste0("D_for_", exp_arms)
-    add_mat  <- matrix(NA_real_, nrow = length(add_rows), ncol = 3,
-                       dimnames = list(add_rows, colnames(arm_metrics)))
-    
+    # concurrent control for each investigational arm: D_for_A, D_for_B, ...
+    ctrl_code <- n_exp + 1L
     for (k in seq_len(n_exp)) {
       arm_open <- t_open[k]
       t_end    <- close_time[k]
       if (is.na(arm_open) || is.na(t_end) || t_end < arm_open) next
       
-      in_win <- times_i >= arm_open & times_i <= t_end
-      y_idx <- which(assign_i == (n_exp + 1L) & in_win)
+      in_win <- (times_i >= arm_open & times_i <= t_end & assign_i == ctrl_code)
+      idxs   <- which(in_win)
+      if (!length(idxs)) next
       
-      arm_metrics <- matrix(NA_real_, nrow = n_arms, ncol = 3,
-                            dimnames = list(arm_names,
-                                            c(mse_col,
-                                              "mean_allocation_bias",
-                                              "mean_chronological_bias")))
-      for (code in seq_len(n_arms)) {
-        idxs <- which(assign_i == code)
-        if (length(idxs) == 0L) next
-        
-        arm_metrics[code, mse_col]                  <- mean((outcomes[idxs] - alpha)^2)
-        arm_metrics[code, "mean_allocation_bias"]   <- mean(alloc_vec[idxs])
-        
-        if(chronobias_type == "linear") {
-          arm_metrics[code, "mean_chronological_bias"] <- mean(beta_time * s_t[idxs])
-        } else if(chronobias_type == "stepwise") {
-          mean_bias <- mean(chronobias_incr[period_i[idxs]])
-          arm_metrics[code, "mean_chronological_bias"] <- mean_bias
-        } else if (chronobias_type == "inv_u") {
-          mean_bias <- mean(ifelse(times_i[idxs] < mid_point,
-                                   beta_time * times_i[idxs]/expected_total,
-                                   -beta_time * (times_i[idxs] - mid_point)/expected_total + 
-                                     beta_time * (mid_point/expected_total)))
-          arm_metrics[code, "mean_chronological_bias"] <- mean_bias
-        } else if (chronobias_type == "seasonal") {
-          mean_bias <- mean(beta_time * sin(4 * pi * times_i[idxs] / expected_total))
-          arm_metrics[code, "mean_chronological_bias"] <- mean_bias
-        }
-        
-      }
+      row_lab <- paste0("D_for_", exp_arms[k])
+      
+      arm_metrics[row_lab, mse_col]                   <- mean((outcomes[idxs] - alpha)^2)
+      arm_metrics[row_lab, "mean_allocation_bias"]    <- mean(alloc_vec[idxs])
+      arm_metrics[row_lab, "mean_chronological_bias"] <- mean(chr_bias[idxs])
     }
-    
-    arm_metrics <- rbind(arm_metrics, add_mat)
     
   } else {
     mse_col <- sprintf("mse_outcome_vs_%.3f", alpha)
-    arm_metrics <- matrix(numeric(0), nrow = 0, ncol = 3,
-                          dimnames = list(NULL,
-                                          c(mse_col,
-                                            "mean_allocation_bias",
-                                            "mean_chronological_bias")))
+    arm_metrics <- matrix(
+      numeric(0),
+      nrow = 0, ncol = 3L,
+      dimnames = list(
+        NULL,
+        c(mse_col, "mean_allocation_bias", "mean_chronological_bias")
+      )
+    )
   }
   
-  # testing (unchanged)
+  
+  # testing 
   reject   <- logical(n_exp)
   realized <- matrix(0L, 2, n_exp, dimnames = list(c("arm","ctrl"), paste0(exp_arms, "_vs_D")))
   for (k in seq_len(n_exp)) {
@@ -981,16 +988,34 @@ platform_trials_simulation <- function(
         }
       }
     } else {
-      y   <- c(outcomes[x_idx], outcomes[y_idx])
-      trt <- c(rep("arm", length(x_idx)), rep("ctrl", length(y_idx)))
-      per <- c(period_i[x_idx],            period_i[y_idx])
+      if (concurrent_only) {
+        # use only data from the time B (or general arm k) is open
+        use_idx <- which(times_i >= arm_open & times_i <= t_end)
+      } else {
+        # use all data up to the time arm k leaves the platform
+        use_idx <- which(times_i <= t_end)
+      }
       
-      ans <- .fit_lm_time(
-        y, trt, per, alpha = alpha,
-        test_side = test_side, alternative = alternative
-      )
-      reject[k] <- ans$reject
+      if (length(use_idx) < 3L) {
+        reject[k] <- FALSE
+      } else {
+        y_all   <- outcomes[use_idx]
+        trt_all <- all_arms[assign_i[use_idx]]   
+        per_all <- period_i[use_idx]
+        
+        ans <- .fit_lm_time(
+          y          = y_all,
+          trt_all    = trt_all,
+          per        = per_all,
+          target_arm = exp_arms[k],
+          alpha      = alpha,
+          test_side  = test_side,
+          alternative = alternative
+        )
+        reject[k] <- ans$reject
+      }
     }
+    
   }
   names(reject) <- paste0(exp_arms, "_vs_D")
   
@@ -1009,19 +1034,21 @@ platform_trials_simulation <- function(
     names(cbc_df) <- paste0("ctrl_from_", names(cbc_df))
     
     trace_df <- data.frame(
-      i        = seq_len(idx),
-      t        = times_i,
-      period   = period_i,
-      open     = open_labs,
-      expected = code_to_lab(expected_code_i),
-      responder= bias_cat_i,
-      bias_val = alloc_bias_i,
-      assigned = all_arms[assign_i],
-      cohort   = cohort_lab,
+      i         = seq_len(idx),
+      t         = times_i,
+      period    = period_i,
+      open      = open_labs,
+      expected  = code_to_lab(expected_code_i),
+      responder = bias_cat_i,
+      bias_val  = alloc_bias_i,
+      chron_val = chr_bias,
+      assigned  = all_arms[assign_i],
+      cohort    = cohort_lab,
       lc_df,
       cbc_df,
       stringsAsFactors = FALSE
     )
+    
   }
   
   res <- list(
@@ -1213,6 +1240,8 @@ calc_rejection_summary <- function(
     concurrent_only = TRUE,
     expected_total  = 200,
     beta_time       = 0,
+    chronobias_type = c("linear","stepwise","inv_u","seasonal"),
+    chronobias_incr = 0,
     rand_mode       = c("block","complete","bigstick"),
     block_factor    = 1,
     alloc_bias      = 0,
@@ -1227,11 +1256,12 @@ calc_rejection_summary <- function(
     two_step = FALSE,
     bigstick_a = 2L
 ) {
-  rand_mode   <- match.arg(rand_mode)
-  test_side   <- match.arg(test_side)
-  alternative <- match.arg(alternative)
-  bias_policy <- match.arg(bias_policy)
-  analysis_model <- match.arg(analysis_model)
+  rand_mode        <- match.arg(rand_mode)
+  test_side        <- match.arg(test_side)
+  alternative      <- match.arg(alternative)
+  bias_policy      <- match.arg(bias_policy)
+  analysis_model   <- match.arg(analysis_model)
+  chronobias_type  <- match.arg(chronobias_type)
   if (!is.null(seed)) set.seed(seed)
   
   infer_exp_arms <- function(mu, arm_start) {
@@ -1261,6 +1291,8 @@ calc_rejection_summary <- function(
     concurrent_only = concurrent_only,
     expected_total  = expected_total,
     beta_time       = beta_time,
+    chronobias_type = chronobias_type,
+    chronobias_incr = chronobias_incr,
     rand_mode       = rand_mode,
     block_factor    = block_factor,
     alloc_bias      = alloc_bias,
@@ -1364,9 +1396,9 @@ calc_rejection_summary <- function(
     settings = list(
       max_group_size=max_group_size, alpha=alpha,
       concurrent_only=concurrent_only, expected_total=expected_total,
-      beta_time=beta_time, rand_mode=rand_mode, block_factor=block_factor,
-      alloc_bias=alloc_bias, exp_arms=exp_arms, n_cores=n_cores, two_step=two_step,
-      bigstick_a=bigstick_a
+      beta_time=beta_time, chronobias_type=chronobias_type,
+      alloc_bias=alloc_bias, exp_arms=exp_arms, n_cores=n_cores,
+      two_step=two_step, bigstick_a=bigstick_a
     )
   )
 }
