@@ -1,0 +1,391 @@
+"b_start","panel","config","series","analysis_model","rate"
+1,"Permuted block randomization (factor = 1)","favor_B (eta>0)","A","ttest",0.6535625
+1,"Permuted block randomization (factor = 1)","favor_B (eta>0)","B","ttest",0.7021875
+1,"Permuted block randomization (factor = 1)","favor_B (eta>0)","FWER","ttest",0.8291
+1,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","A","ttest",0.583875
+1,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","B","ttest",0.7178125
+1,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","FWER","ttest",0.8133
+1,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","A","ttest",0.7013875
+1,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","B","ttest",0.7000375
+1,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","FWER","ttest",0.8443
+1,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","A","ttest",0.7032125
+1,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","B","ttest",0.69995
+1,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","FWER","ttest",0.845275
+1,"Permuted block randomization (factor = 1)","PBR (eta=0)","A","ttest",0.602425
+1,"Permuted block randomization (factor = 1)","PBR (eta=0)","B","ttest",0.601725
+1,"Permuted block randomization (factor = 1)","PBR (eta=0)","FWER","ttest",0.7638
+13,"Permuted block randomization (factor = 1)","favor_B (eta>0)","A","ttest",0.6394375
+13,"Permuted block randomization (factor = 1)","favor_B (eta>0)","B","ttest",0.7508875
+13,"Permuted block randomization (factor = 1)","favor_B (eta>0)","FWER","ttest",0.8552375
+13,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","A","ttest",0.5830625
+13,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","B","ttest",0.7605
+13,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","FWER","ttest",0.84565
+13,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","A","ttest",0.6995
+13,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","B","ttest",0.7416125
+13,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","FWER","ttest",0.8683125
+13,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","A","ttest",0.70045
+13,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","B","ttest",0.7418375
+13,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","FWER","ttest",0.8703875
+13,"Permuted block randomization (factor = 1)","PBR (eta=0)","A","ttest",0.59925
+13,"Permuted block randomization (factor = 1)","PBR (eta=0)","B","ttest",0.64405
+13,"Permuted block randomization (factor = 1)","PBR (eta=0)","FWER","ttest",0.793525
+25,"Permuted block randomization (factor = 1)","favor_B (eta>0)","A","ttest",0.6248875
+25,"Permuted block randomization (factor = 1)","favor_B (eta>0)","B","ttest",0.7941125
+25,"Permuted block randomization (factor = 1)","favor_B (eta>0)","FWER","ttest",0.8811625
+25,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","A","ttest",0.588025
+25,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","B","ttest",0.7975375
+25,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","FWER","ttest",0.874075
+25,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","A","ttest",0.699575
+25,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","B","ttest",0.7758
+25,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","FWER","ttest",0.8904875
+25,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","A","ttest",0.6991125
+25,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","B","ttest",0.7767875
+25,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","FWER","ttest",0.8901125
+25,"Permuted block randomization (factor = 1)","PBR (eta=0)","A","ttest",0.6050875
+25,"Permuted block randomization (factor = 1)","PBR (eta=0)","B","ttest",0.678875
+25,"Permuted block randomization (factor = 1)","PBR (eta=0)","FWER","ttest",0.8184875
+37,"Permuted block randomization (factor = 1)","favor_B (eta>0)","A","ttest",0.6124625
+37,"Permuted block randomization (factor = 1)","favor_B (eta>0)","B","ttest",0.8216125
+37,"Permuted block randomization (factor = 1)","favor_B (eta>0)","FWER","ttest",0.89665
+37,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","A","ttest",0.594725
+37,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","B","ttest",0.822825
+37,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","FWER","ttest",0.893975
+37,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","A","ttest",0.69475
+37,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","B","ttest",0.8008375
+37,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","FWER","ttest",0.905925
+37,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","A","ttest",0.69935
+37,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","B","ttest",0.8022875
+37,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","FWER","ttest",0.9077125
+37,"Permuted block randomization (factor = 1)","PBR (eta=0)","A","ttest",0.59915
+37,"Permuted block randomization (factor = 1)","PBR (eta=0)","B","ttest",0.7071
+37,"Permuted block randomization (factor = 1)","PBR (eta=0)","FWER","ttest",0.8369625
+49,"Permuted block randomization (factor = 1)","favor_B (eta>0)","A","ttest",0.6010625
+49,"Permuted block randomization (factor = 1)","favor_B (eta>0)","B","ttest",0.84355
+49,"Permuted block randomization (factor = 1)","favor_B (eta>0)","FWER","ttest",0.9101875
+49,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","A","ttest",0.599575
+49,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","B","ttest",0.842275
+49,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","FWER","ttest",0.9097875
+49,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","A","ttest",0.6994125
+49,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","B","ttest",0.8211625
+49,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","FWER","ttest",0.918075
+49,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","A","ttest",0.6969375
+49,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","B","ttest",0.820675
+49,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","FWER","ttest",0.9169875
+49,"Permuted block randomization (factor = 1)","PBR (eta=0)","A","ttest",0.5991
+49,"Permuted block randomization (factor = 1)","PBR (eta=0)","B","ttest",0.7319
+49,"Permuted block randomization (factor = 1)","PBR (eta=0)","FWER","ttest",0.8559625
+1,"Permuted block randomization (factor = 1)","favor_B (eta>0)","A","lm_time",0.6564875
+1,"Permuted block randomization (factor = 1)","favor_B (eta>0)","B","lm_time",0.7072125
+1,"Permuted block randomization (factor = 1)","favor_B (eta>0)","FWER","lm_time",0.8282375
+1,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","A","lm_time",0.5860875
+1,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","B","lm_time",0.722675
+1,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","FWER","lm_time",0.813275
+1,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","A","lm_time",0.7057125
+1,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","B","lm_time",0.7067375
+1,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","FWER","lm_time",0.8467625
+1,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","A","lm_time",0.702925
+1,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","B","lm_time",0.70635
+1,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","FWER","lm_time",0.8456375
+1,"Permuted block randomization (factor = 1)","PBR (eta=0)","A","lm_time",0.6003875
+1,"Permuted block randomization (factor = 1)","PBR (eta=0)","B","lm_time",0.602525
+1,"Permuted block randomization (factor = 1)","PBR (eta=0)","FWER","lm_time",0.7605
+13,"Permuted block randomization (factor = 1)","favor_B (eta>0)","A","lm_time",0.641525
+13,"Permuted block randomization (factor = 1)","favor_B (eta>0)","B","lm_time",0.7248
+13,"Permuted block randomization (factor = 1)","favor_B (eta>0)","FWER","lm_time",0.8462625
+13,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","A","lm_time",0.5894125
+13,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","B","lm_time",0.741025
+13,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","FWER","lm_time",0.839675
+13,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","A","lm_time",0.7012125
+13,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","B","lm_time",0.728725
+13,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","FWER","lm_time",0.8673875
+13,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","A","lm_time",0.7031875
+13,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","B","lm_time",0.7255625
+13,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","FWER","lm_time",0.867
+13,"Permuted block randomization (factor = 1)","PBR (eta=0)","A","lm_time",0.6077
+13,"Permuted block randomization (factor = 1)","PBR (eta=0)","B","lm_time",0.6226625
+13,"Permuted block randomization (factor = 1)","PBR (eta=0)","FWER","lm_time",0.7885875
+25,"Permuted block randomization (factor = 1)","favor_B (eta>0)","A","lm_time",0.62825
+25,"Permuted block randomization (factor = 1)","favor_B (eta>0)","B","lm_time",0.7311
+25,"Permuted block randomization (factor = 1)","favor_B (eta>0)","FWER","lm_time",0.860725
+25,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","A","lm_time",0.59095
+25,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","B","lm_time",0.746625
+25,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","FWER","lm_time",0.8578375
+25,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","A","lm_time",0.6988375
+25,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","B","lm_time",0.7361875
+25,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","FWER","lm_time",0.884025
+25,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","A","lm_time",0.7053875
+25,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","B","lm_time",0.7348125
+25,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","FWER","lm_time",0.8864125
+25,"Permuted block randomization (factor = 1)","PBR (eta=0)","A","lm_time",0.6039
+25,"Permuted block randomization (factor = 1)","PBR (eta=0)","B","lm_time",0.636975
+25,"Permuted block randomization (factor = 1)","PBR (eta=0)","FWER","lm_time",0.812025
+37,"Permuted block randomization (factor = 1)","favor_B (eta>0)","A","lm_time",0.613625
+37,"Permuted block randomization (factor = 1)","favor_B (eta>0)","B","lm_time",0.727175
+37,"Permuted block randomization (factor = 1)","favor_B (eta>0)","FWER","lm_time",0.872825
+37,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","A","lm_time",0.6019375
+37,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","B","lm_time",0.7425375
+37,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","FWER","lm_time",0.8754375
+37,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","A","lm_time",0.699775
+37,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","B","lm_time",0.7312
+37,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","FWER","lm_time",0.8972875
+37,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","A","lm_time",0.6998625
+37,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","B","lm_time",0.73305
+37,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","FWER","lm_time",0.8991875
+37,"Permuted block randomization (factor = 1)","PBR (eta=0)","A","lm_time",0.6042125
+37,"Permuted block randomization (factor = 1)","PBR (eta=0)","B","lm_time",0.6317
+37,"Permuted block randomization (factor = 1)","PBR (eta=0)","FWER","lm_time",0.8299125
+49,"Permuted block randomization (factor = 1)","favor_B (eta>0)","A","lm_time",0.592425
+49,"Permuted block randomization (factor = 1)","favor_B (eta>0)","B","lm_time",0.7093125
+49,"Permuted block randomization (factor = 1)","favor_B (eta>0)","FWER","lm_time",0.8760125
+49,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","A","lm_time",0.58925
+49,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","B","lm_time",0.7078125
+49,"Permuted block randomization (factor = 1)","favor_B_2step (eta>0)","FWER","lm_time",0.8757375
+49,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","A","lm_time",0.6919
+49,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","B","lm_time",0.71035
+49,"Permuted block randomization (factor = 1)","favor_all_exp (eta>0)","FWER","lm_time",0.9075875
+49,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","A","lm_time",0.6922
+49,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","B","lm_time",0.7086625
+49,"Permuted block randomization (factor = 1)","favor_all_exp_2step (eta>0)","FWER","lm_time",0.9060375
+49,"Permuted block randomization (factor = 1)","PBR (eta=0)","A","lm_time",0.5891625
+49,"Permuted block randomization (factor = 1)","PBR (eta=0)","B","lm_time",0.6082125
+49,"Permuted block randomization (factor = 1)","PBR (eta=0)","FWER","lm_time",0.8355125
+1,"Big stick design (a = 3)","favor_B (eta>0)","A","ttest",0.6178375
+1,"Big stick design (a = 3)","favor_B (eta>0)","B","ttest",0.6373
+1,"Big stick design (a = 3)","favor_B (eta>0)","FWER","ttest",0.786225
+1,"Big stick design (a = 3)","favor_B_2step (eta>0)","A","ttest",0.554525
+1,"Big stick design (a = 3)","favor_B_2step (eta>0)","B","ttest",0.6721875
+1,"Big stick design (a = 3)","favor_B_2step (eta>0)","FWER","ttest",0.7818375
+1,"Big stick design (a = 3)","favor_all_exp (eta>0)","A","ttest",0.6253625
+1,"Big stick design (a = 3)","favor_all_exp (eta>0)","B","ttest",0.629075
+1,"Big stick design (a = 3)","favor_all_exp (eta>0)","FWER","ttest",0.7864125
+1,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","A","ttest",0.6287
+1,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","B","ttest",0.6303625
+1,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","FWER","ttest",0.7896375
+13,"Big stick design (a = 3)","favor_B (eta>0)","A","ttest",0.61355
+13,"Big stick design (a = 3)","favor_B (eta>0)","B","ttest",0.6964125
+13,"Big stick design (a = 3)","favor_B (eta>0)","FWER","ttest",0.8220875
+13,"Big stick design (a = 3)","favor_B_2step (eta>0)","A","ttest",0.562
+13,"Big stick design (a = 3)","favor_B_2step (eta>0)","B","ttest",0.71425
+13,"Big stick design (a = 3)","favor_B_2step (eta>0)","FWER","ttest",0.817025
+13,"Big stick design (a = 3)","favor_all_exp (eta>0)","A","ttest",0.6265
+13,"Big stick design (a = 3)","favor_all_exp (eta>0)","B","ttest",0.6707875
+13,"Big stick design (a = 3)","favor_all_exp (eta>0)","FWER","ttest",0.8161625
+13,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","A","ttest",0.6257875
+13,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","B","ttest",0.667575
+13,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","FWER","ttest",0.814725
+25,"Big stick design (a = 3)","favor_B (eta>0)","A","ttest",0.605875
+25,"Big stick design (a = 3)","favor_B (eta>0)","B","ttest",0.737025
+25,"Big stick design (a = 3)","favor_B (eta>0)","FWER","ttest",0.849
+25,"Big stick design (a = 3)","favor_B_2step (eta>0)","A","ttest",0.5715875
+25,"Big stick design (a = 3)","favor_B_2step (eta>0)","B","ttest",0.7477375
+25,"Big stick design (a = 3)","favor_B_2step (eta>0)","FWER","ttest",0.8448875
+25,"Big stick design (a = 3)","favor_all_exp (eta>0)","A","ttest",0.6275
+25,"Big stick design (a = 3)","favor_all_exp (eta>0)","B","ttest",0.708275
+25,"Big stick design (a = 3)","favor_all_exp (eta>0)","FWER","ttest",0.8397875
+25,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","A","ttest",0.6294875
+25,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","B","ttest",0.706325
+25,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","FWER","ttest",0.8414125
+37,"Big stick design (a = 3)","favor_B (eta>0)","A","ttest",0.6010625
+37,"Big stick design (a = 3)","favor_B (eta>0)","B","ttest",0.7705375
+37,"Big stick design (a = 3)","favor_B (eta>0)","FWER","ttest",0.867875
+37,"Big stick design (a = 3)","favor_B_2step (eta>0)","A","ttest",0.5843375
+37,"Big stick design (a = 3)","favor_B_2step (eta>0)","B","ttest",0.7760875
+37,"Big stick design (a = 3)","favor_B_2step (eta>0)","FWER","ttest",0.8676625
+37,"Big stick design (a = 3)","favor_all_exp (eta>0)","A","ttest",0.627075
+37,"Big stick design (a = 3)","favor_all_exp (eta>0)","B","ttest",0.7378125
+37,"Big stick design (a = 3)","favor_all_exp (eta>0)","FWER","ttest",0.860975
+37,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","A","ttest",0.62865
+37,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","B","ttest",0.7342
+37,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","FWER","ttest",0.8591875
+49,"Big stick design (a = 3)","favor_B (eta>0)","A","ttest",0.6008375
+49,"Big stick design (a = 3)","favor_B (eta>0)","B","ttest",0.8012875
+49,"Big stick design (a = 3)","favor_B (eta>0)","FWER","ttest",0.8887375
+49,"Big stick design (a = 3)","favor_B_2step (eta>0)","A","ttest",0.59845
+49,"Big stick design (a = 3)","favor_B_2step (eta>0)","B","ttest",0.8009375
+49,"Big stick design (a = 3)","favor_B_2step (eta>0)","FWER","ttest",0.8874375
+49,"Big stick design (a = 3)","favor_all_exp (eta>0)","A","ttest",0.6285625
+49,"Big stick design (a = 3)","favor_all_exp (eta>0)","B","ttest",0.7592125
+49,"Big stick design (a = 3)","favor_all_exp (eta>0)","FWER","ttest",0.8743125
+49,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","A","ttest",0.63385
+49,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","B","ttest",0.7591875
+49,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","FWER","ttest",0.87495
+1,"Big stick design (a = 3)","favor_B (eta>0)","A","lm_time",0.6215625
+1,"Big stick design (a = 3)","favor_B (eta>0)","B","lm_time",0.64165
+1,"Big stick design (a = 3)","favor_B (eta>0)","FWER","lm_time",0.784725
+1,"Big stick design (a = 3)","favor_B_2step (eta>0)","A","lm_time",0.554575
+1,"Big stick design (a = 3)","favor_B_2step (eta>0)","B","lm_time",0.6726625
+1,"Big stick design (a = 3)","favor_B_2step (eta>0)","FWER","lm_time",0.778825
+1,"Big stick design (a = 3)","favor_all_exp (eta>0)","A","lm_time",0.6291875
+1,"Big stick design (a = 3)","favor_all_exp (eta>0)","B","lm_time",0.6305375
+1,"Big stick design (a = 3)","favor_all_exp (eta>0)","FWER","lm_time",0.7862625
+1,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","A","lm_time",0.630775
+1,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","B","lm_time",0.6320125
+1,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","FWER","lm_time",0.7887875
+13,"Big stick design (a = 3)","favor_B (eta>0)","A","lm_time",0.6150125
+13,"Big stick design (a = 3)","favor_B (eta>0)","B","lm_time",0.659325
+13,"Big stick design (a = 3)","favor_B (eta>0)","FWER","lm_time",0.8067
+13,"Big stick design (a = 3)","favor_B_2step (eta>0)","A","lm_time",0.5663
+13,"Big stick design (a = 3)","favor_B_2step (eta>0)","B","lm_time",0.693
+13,"Big stick design (a = 3)","favor_B_2step (eta>0)","FWER","lm_time",0.8068
+13,"Big stick design (a = 3)","favor_all_exp (eta>0)","A","lm_time",0.6307375
+13,"Big stick design (a = 3)","favor_all_exp (eta>0)","B","lm_time",0.6524
+13,"Big stick design (a = 3)","favor_all_exp (eta>0)","FWER","lm_time",0.81025
+13,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","A","lm_time",0.6343625
+13,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","B","lm_time",0.6565625
+13,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","FWER","lm_time",0.815975
+25,"Big stick design (a = 3)","favor_B (eta>0)","A","lm_time",0.610525
+25,"Big stick design (a = 3)","favor_B (eta>0)","B","lm_time",0.6692125
+25,"Big stick design (a = 3)","favor_B (eta>0)","FWER","lm_time",0.828375
+25,"Big stick design (a = 3)","favor_B_2step (eta>0)","A","lm_time",0.5747625
+25,"Big stick design (a = 3)","favor_B_2step (eta>0)","B","lm_time",0.696075
+25,"Big stick design (a = 3)","favor_B_2step (eta>0)","FWER","lm_time",0.827
+25,"Big stick design (a = 3)","favor_all_exp (eta>0)","A","lm_time",0.6311625
+25,"Big stick design (a = 3)","favor_all_exp (eta>0)","B","lm_time",0.6660125
+25,"Big stick design (a = 3)","favor_all_exp (eta>0)","FWER","lm_time",0.8360625
+25,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","A","lm_time",0.632275
+25,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","B","lm_time",0.6645625
+25,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","FWER","lm_time",0.8359625
+37,"Big stick design (a = 3)","favor_B (eta>0)","A","lm_time",0.606575
+37,"Big stick design (a = 3)","favor_B (eta>0)","B","lm_time",0.6616
+37,"Big stick design (a = 3)","favor_B (eta>0)","FWER","lm_time",0.8415125
+37,"Big stick design (a = 3)","favor_B_2step (eta>0)","A","lm_time",0.5852375
+37,"Big stick design (a = 3)","favor_B_2step (eta>0)","B","lm_time",0.679475
+37,"Big stick design (a = 3)","favor_B_2step (eta>0)","FWER","lm_time",0.84035
+37,"Big stick design (a = 3)","favor_all_exp (eta>0)","A","lm_time",0.63105
+37,"Big stick design (a = 3)","favor_all_exp (eta>0)","B","lm_time",0.65835
+37,"Big stick design (a = 3)","favor_all_exp (eta>0)","FWER","lm_time",0.84925
+37,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","A","lm_time",0.62755
+37,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","B","lm_time",0.660825
+37,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","FWER","lm_time",0.8493
+49,"Big stick design (a = 3)","favor_B (eta>0)","A","lm_time",0.59235
+49,"Big stick design (a = 3)","favor_B (eta>0)","B","lm_time",0.6401
+49,"Big stick design (a = 3)","favor_B (eta>0)","FWER","lm_time",0.84935
+49,"Big stick design (a = 3)","favor_B_2step (eta>0)","A","lm_time",0.59105
+49,"Big stick design (a = 3)","favor_B_2step (eta>0)","B","lm_time",0.642825
+49,"Big stick design (a = 3)","favor_B_2step (eta>0)","FWER","lm_time",0.8495625
+49,"Big stick design (a = 3)","favor_all_exp (eta>0)","A","lm_time",0.6178375
+49,"Big stick design (a = 3)","favor_all_exp (eta>0)","B","lm_time",0.6406625
+49,"Big stick design (a = 3)","favor_all_exp (eta>0)","FWER","lm_time",0.8588625
+49,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","A","lm_time",0.624775
+49,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","B","lm_time",0.638175
+49,"Big stick design (a = 3)","favor_all_exp_2step (eta>0)","FWER","lm_time",0.859075
+1,"Complete randomization","favor_B (eta>0)","A","ttest",0.5967875
+1,"Complete randomization","favor_B (eta>0)","B","ttest",0.60665
+1,"Complete randomization","favor_B (eta>0)","FWER","ttest",0.765725
+1,"Complete randomization","favor_B_2step (eta>0)","A","ttest",0.54275
+1,"Complete randomization","favor_B_2step (eta>0)","B","ttest",0.6451625
+1,"Complete randomization","favor_B_2step (eta>0)","FWER","ttest",0.7670375
+1,"Complete randomization","favor_all_exp (eta>0)","A","ttest",0.6044625
+1,"Complete randomization","favor_all_exp (eta>0)","B","ttest",0.6029875
+1,"Complete randomization","favor_all_exp (eta>0)","FWER","ttest",0.7687125
+1,"Complete randomization","favor_all_exp_2step (eta>0)","A","ttest",0.6013875
+1,"Complete randomization","favor_all_exp_2step (eta>0)","B","ttest",0.59885
+1,"Complete randomization","favor_all_exp_2step (eta>0)","FWER","ttest",0.7699375
+13,"Complete randomization","favor_B (eta>0)","A","ttest",0.59365
+13,"Complete randomization","favor_B (eta>0)","B","ttest",0.663025
+13,"Complete randomization","favor_B (eta>0)","FWER","ttest",0.7990375
+13,"Complete randomization","favor_B_2step (eta>0)","A","ttest",0.5546
+13,"Complete randomization","favor_B_2step (eta>0)","B","ttest",0.6911
+13,"Complete randomization","favor_B_2step (eta>0)","FWER","ttest",0.8010375
+13,"Complete randomization","favor_all_exp (eta>0)","A","ttest",0.600175
+13,"Complete randomization","favor_all_exp (eta>0)","B","ttest",0.6473125
+13,"Complete randomization","favor_all_exp (eta>0)","FWER","ttest",0.7938625
+13,"Complete randomization","favor_all_exp_2step (eta>0)","A","ttest",0.6003625
+13,"Complete randomization","favor_all_exp_2step (eta>0)","B","ttest",0.64025
+13,"Complete randomization","favor_all_exp_2step (eta>0)","FWER","ttest",0.7934125
+25,"Complete randomization","favor_B (eta>0)","A","ttest",0.5934
+25,"Complete randomization","favor_B (eta>0)","B","ttest",0.7136625
+25,"Complete randomization","favor_B (eta>0)","FWER","ttest",0.8346875
+25,"Complete randomization","favor_B_2step (eta>0)","A","ttest",0.56875
+25,"Complete randomization","favor_B_2step (eta>0)","B","ttest",0.725625
+25,"Complete randomization","favor_B_2step (eta>0)","FWER","ttest",0.8316875
+25,"Complete randomization","favor_all_exp (eta>0)","A","ttest",0.6005125
+25,"Complete randomization","favor_all_exp (eta>0)","B","ttest",0.679
+25,"Complete randomization","favor_all_exp (eta>0)","FWER","ttest",0.818975
+25,"Complete randomization","favor_all_exp_2step (eta>0)","A","ttest",0.602225
+25,"Complete randomization","favor_all_exp_2step (eta>0)","B","ttest",0.6767
+25,"Complete randomization","favor_all_exp_2step (eta>0)","FWER","ttest",0.8184375
+37,"Complete randomization","favor_B (eta>0)","A","ttest",0.5928
+37,"Complete randomization","favor_B (eta>0)","B","ttest",0.7498
+37,"Complete randomization","favor_B (eta>0)","FWER","ttest",0.856375
+37,"Complete randomization","favor_B_2step (eta>0)","A","ttest",0.578675
+37,"Complete randomization","favor_B_2step (eta>0)","B","ttest",0.7547875
+37,"Complete randomization","favor_B_2step (eta>0)","FWER","ttest",0.8548
+37,"Complete randomization","favor_all_exp (eta>0)","A","ttest",0.6015375
+37,"Complete randomization","favor_all_exp (eta>0)","B","ttest",0.7095375
+37,"Complete randomization","favor_all_exp (eta>0)","FWER","ttest",0.8384
+37,"Complete randomization","favor_all_exp_2step (eta>0)","A","ttest",0.600975
+37,"Complete randomization","favor_all_exp_2step (eta>0)","B","ttest",0.7070375
+37,"Complete randomization","favor_all_exp_2step (eta>0)","FWER","ttest",0.84035
+49,"Complete randomization","favor_B (eta>0)","A","ttest",0.5912125
+49,"Complete randomization","favor_B (eta>0)","B","ttest",0.7771375
+49,"Complete randomization","favor_B (eta>0)","FWER","ttest",0.8750375
+49,"Complete randomization","favor_B_2step (eta>0)","A","ttest",0.5902875
+49,"Complete randomization","favor_B_2step (eta>0)","B","ttest",0.7790875
+49,"Complete randomization","favor_B_2step (eta>0)","FWER","ttest",0.8749125
+49,"Complete randomization","favor_all_exp (eta>0)","A","ttest",0.6065875
+49,"Complete randomization","favor_all_exp (eta>0)","B","ttest",0.7313125
+49,"Complete randomization","favor_all_exp (eta>0)","FWER","ttest",0.8575375
+49,"Complete randomization","favor_all_exp_2step (eta>0)","A","ttest",0.605525
+49,"Complete randomization","favor_all_exp_2step (eta>0)","B","ttest",0.7271375
+49,"Complete randomization","favor_all_exp_2step (eta>0)","FWER","ttest",0.8545875
+1,"Complete randomization","favor_B (eta>0)","A","lm_time",0.60095
+1,"Complete randomization","favor_B (eta>0)","B","lm_time",0.6104375
+1,"Complete randomization","favor_B (eta>0)","FWER","lm_time",0.7682375
+1,"Complete randomization","favor_B_2step (eta>0)","A","lm_time",0.5434125
+1,"Complete randomization","favor_B_2step (eta>0)","B","lm_time",0.650425
+1,"Complete randomization","favor_B_2step (eta>0)","FWER","lm_time",0.7661875
+1,"Complete randomization","favor_all_exp (eta>0)","A","lm_time",0.6026875
+1,"Complete randomization","favor_all_exp (eta>0)","B","lm_time",0.6030375
+1,"Complete randomization","favor_all_exp (eta>0)","FWER","lm_time",0.767075
+1,"Complete randomization","favor_all_exp_2step (eta>0)","A","lm_time",0.6046375
+1,"Complete randomization","favor_all_exp_2step (eta>0)","B","lm_time",0.605225
+1,"Complete randomization","favor_all_exp_2step (eta>0)","FWER","lm_time",0.7716875
+13,"Complete randomization","favor_B (eta>0)","A","lm_time",0.59135
+13,"Complete randomization","favor_B (eta>0)","B","lm_time",0.62925
+13,"Complete randomization","favor_B (eta>0)","FWER","lm_time",0.7855875
+13,"Complete randomization","favor_B_2step (eta>0)","A","lm_time",0.5488375
+13,"Complete randomization","favor_B_2step (eta>0)","B","lm_time",0.6650625
+13,"Complete randomization","favor_B_2step (eta>0)","FWER","lm_time",0.7871375
+13,"Complete randomization","favor_all_exp (eta>0)","A","lm_time",0.6033375
+13,"Complete randomization","favor_all_exp (eta>0)","B","lm_time",0.6274125
+13,"Complete randomization","favor_all_exp (eta>0)","FWER","lm_time",0.7882125
+13,"Complete randomization","favor_all_exp_2step (eta>0)","A","lm_time",0.6068375
+13,"Complete randomization","favor_all_exp_2step (eta>0)","B","lm_time",0.6262
+13,"Complete randomization","favor_all_exp_2step (eta>0)","FWER","lm_time",0.792875
+25,"Complete randomization","favor_B (eta>0)","A","lm_time",0.5938125
+25,"Complete randomization","favor_B (eta>0)","B","lm_time",0.641375
+25,"Complete randomization","favor_B (eta>0)","FWER","lm_time",0.8098875
+25,"Complete randomization","favor_B_2step (eta>0)","A","lm_time",0.5611375
+25,"Complete randomization","favor_B_2step (eta>0)","B","lm_time",0.66815
+25,"Complete randomization","favor_B_2step (eta>0)","FWER","lm_time",0.812
+25,"Complete randomization","favor_all_exp (eta>0)","A","lm_time",0.6038375
+25,"Complete randomization","favor_all_exp (eta>0)","B","lm_time",0.6379
+25,"Complete randomization","favor_all_exp (eta>0)","FWER","lm_time",0.8128
+25,"Complete randomization","favor_all_exp_2step (eta>0)","A","lm_time",0.6084875
+25,"Complete randomization","favor_all_exp_2step (eta>0)","B","lm_time",0.6343375
+25,"Complete randomization","favor_all_exp_2step (eta>0)","FWER","lm_time",0.81405
+37,"Complete randomization","favor_B (eta>0)","A","lm_time",0.58635
+37,"Complete randomization","favor_B (eta>0)","B","lm_time",0.6371
+37,"Complete randomization","favor_B (eta>0)","FWER","lm_time",0.8251
+37,"Complete randomization","favor_B_2step (eta>0)","A","lm_time",0.5717125
+37,"Complete randomization","favor_B_2step (eta>0)","B","lm_time",0.6498625
+37,"Complete randomization","favor_B_2step (eta>0)","FWER","lm_time",0.8255375
+37,"Complete randomization","favor_all_exp (eta>0)","A","lm_time",0.6041625
+37,"Complete randomization","favor_all_exp (eta>0)","B","lm_time",0.6368375
+37,"Complete randomization","favor_all_exp (eta>0)","FWER","lm_time",0.8307375
+37,"Complete randomization","favor_all_exp_2step (eta>0)","A","lm_time",0.60355
+37,"Complete randomization","favor_all_exp_2step (eta>0)","B","lm_time",0.6353
+37,"Complete randomization","favor_all_exp_2step (eta>0)","FWER","lm_time",0.8306375
+49,"Complete randomization","favor_B (eta>0)","A","lm_time",0.5817375
+49,"Complete randomization","favor_B (eta>0)","B","lm_time",0.6155875
+49,"Complete randomization","favor_B (eta>0)","FWER","lm_time",0.833575
+49,"Complete randomization","favor_B_2step (eta>0)","A","lm_time",0.5810875
+49,"Complete randomization","favor_B_2step (eta>0)","B","lm_time",0.616775
+49,"Complete randomization","favor_B_2step (eta>0)","FWER","lm_time",0.8337
+49,"Complete randomization","favor_all_exp (eta>0)","A","lm_time",0.5985375
+49,"Complete randomization","favor_all_exp (eta>0)","B","lm_time",0.6148625
+49,"Complete randomization","favor_all_exp (eta>0)","FWER","lm_time",0.8416875
+49,"Complete randomization","favor_all_exp_2step (eta>0)","A","lm_time",0.595275
+49,"Complete randomization","favor_all_exp_2step (eta>0)","B","lm_time",0.6162875
+49,"Complete randomization","favor_all_exp_2step (eta>0)","FWER","lm_time",0.841225
