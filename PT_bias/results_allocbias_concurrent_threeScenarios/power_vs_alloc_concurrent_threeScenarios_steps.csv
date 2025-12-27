@@ -1,0 +1,973 @@
+"scenario_b_start","scenario_label","scheme_id","scheme_label","rand_mode","rand_label","bias_policy_base","bias_policy_full","alloc_bias","series","rate"
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"A",0.59695
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"B",0.595625
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"FWER",0.758175
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"A",0.65115
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"B",0.6494
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"FWER",0.805675
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"A",0.696075
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"B",0.701875
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"FWER",0.84395
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"A",0.7413
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"B",0.7422
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"FWER",0.874625
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"A",0.777825
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"B",0.783275
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"FWER",0.9017
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"A",0.816925
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"B",0.81385
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"FWER",0.9226
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"A",0.60235
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"B",0.5963
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"FWER",0.761
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"A",0.615575
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"B",0.613625
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"FWER",0.774325
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"A",0.6287
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"B",0.625525
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"FWER",0.78555
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"A",0.635
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"B",0.632875
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"FWER",0.792575
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"A",0.6463
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"B",0.645675
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"FWER",0.801725
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"A",0.659675
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"B",0.6584
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"FWER",0.8126
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"A",0.59405
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"B",0.58865
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"FWER",0.758075
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"A",0.59565
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"B",0.595275
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"FWER",0.7603
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"A",0.60025
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"B",0.602175
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"FWER",0.767275
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"A",0.606875
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"B",0.608125
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"FWER",0.7718
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"A",0.610275
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"B",0.605175
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"FWER",0.773975
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"A",0.613225
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"B",0.61185
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"FWER",0.77725
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"A",0.5997
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"B",0.59835
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"FWER",0.760625
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"A",0.62505
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"B",0.655425
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"FWER",0.79765
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"A",0.6489
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"B",0.6963
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"FWER",0.8244
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"A",0.676825
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"B",0.73965
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"FWER",0.85345
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"A",0.695075
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"B",0.7795
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"FWER",0.8739
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"A",0.7181
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"B",0.82055
+1,"Arm B start at 1","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"FWER",0.898975
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"A",0.6023
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"B",0.59835
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"FWER",0.764
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"A",0.613325
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"B",0.6182
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"FWER",0.77735
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"A",0.61995
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"B",0.638975
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"FWER",0.787425
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"A",0.62635
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"B",0.654025
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"FWER",0.79575
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"A",0.631275
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"B",0.669325
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"FWER",0.80445
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"A",0.6417
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"B",0.687475
+1,"Arm B start at 1","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"FWER",0.816675
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"A",0.5889
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"B",0.59515
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"FWER",0.7597
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"A",0.594925
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"B",0.597675
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"FWER",0.76245
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"A",0.595625
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"B",0.605125
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"FWER",0.76685
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"A",0.60595
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"B",0.616875
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"FWER",0.776025
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"A",0.597575
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"B",0.620525
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"FWER",0.775
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"A",0.6006
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"B",0.62295
+1,"Arm B start at 1","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"FWER",0.77745
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"A",0.6022
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"B",0.598375
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"FWER",0.7619
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"A",0.63865
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"B",0.6422
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"FWER",0.7965
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"A",0.675725
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"B",0.675325
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"FWER",0.824225
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"A",0.71205
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"B",0.7119
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"FWER",0.853225
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"A",0.746475
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"B",0.7394
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"FWER",0.877025
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"A",0.77345
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"B",0.772275
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"FWER",0.89605
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"A",0.597075
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"B",0.5985
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"FWER",0.760525
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"A",0.6091
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"B",0.613475
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"FWER",0.77425
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"A",0.6256
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"B",0.624275
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"FWER",0.78275
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"A",0.6366
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"B",0.6388
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"FWER",0.796025
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"A",0.649775
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"B",0.64705
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"FWER",0.803275
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"A",0.65585
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"B",0.661225
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"FWER",0.8133
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"A",0.589375
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"B",0.5915
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"FWER",0.75755
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"A",0.599725
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"B",0.593675
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"FWER",0.762675
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"A",0.599875
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"B",0.6011
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"FWER",0.7657
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"A",0.6027
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"B",0.607
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"FWER",0.768925
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"A",0.606075
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"B",0.603975
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"FWER",0.772125
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"A",0.617525
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"B",0.60885
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"FWER",0.776275
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"A",0.601525
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"B",0.60205
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"FWER",0.763475
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"A",0.622525
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"B",0.644475
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"FWER",0.790625
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"A",0.64405
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"B",0.67865
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"FWER",0.8134
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"A",0.65955
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"B",0.7203
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"FWER",0.83875
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"A",0.6815
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"B",0.75745
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"FWER",0.8626
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"A",0.696925
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"B",0.788525
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"FWER",0.880175
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"A",0.59995
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"B",0.59965
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"FWER",0.7601
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"A",0.60295
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"B",0.617575
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"FWER",0.770525
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"A",0.61235
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"B",0.63375
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"FWER",0.78185
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"A",0.620725
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"B",0.644425
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"FWER",0.790275
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"A",0.62455
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"B",0.6571
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"FWER",0.7977
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"A",0.62905
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"B",0.67025
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"FWER",0.804975
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"A",0.593375
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"B",0.58945
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"FWER",0.7606
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"A",0.5912
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"B",0.5973
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"FWER",0.756775
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"A",0.596375
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"B",0.6056
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"FWER",0.7683
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"A",0.59825
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"B",0.6143
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"FWER",0.7705
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"A",0.59555
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"B",0.614225
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"FWER",0.76895
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"A",0.603275
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"B",0.6181
+1,"Arm B start at 1","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"FWER",0.777075
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"A",0.6001
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"B",0.5969
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"FWER",0.76055
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"A",0.649225
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"B",0.650525
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.806075
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"A",0.697425
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"B",0.696625
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.842425
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"A",0.743675
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"B",0.7432
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.875975
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"A",0.78275
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"B",0.77915
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.9029
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"A",0.818275
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"B",0.815825
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.92625
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"A",0.599675
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"B",0.601475
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"FWER",0.763775
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"A",0.61645
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"B",0.611925
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.77535
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"A",0.6287
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"B",0.6247
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.7889
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"A",0.6373
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"B",0.640775
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.802925
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"A",0.65165
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"B",0.652675
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.8144
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"A",0.6654
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"B",0.66145
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.830725
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"A",0.591775
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"B",0.589425
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"FWER",0.757975
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"A",0.592575
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"B",0.593925
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.762325
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"A",0.59865
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"B",0.6019
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.769475
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"A",0.6066
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"B",0.60475
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.777775
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"A",0.6019
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"B",0.6013
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.77965
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"A",0.60435
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"B",0.600275
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.78575
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"A",0.60155
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"B",0.598375
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"FWER",0.7619
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"A",0.5907
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"B",0.66005
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"FWER",0.787075
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"A",0.58255
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"B",0.7133
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"FWER",0.811075
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"A",0.5725
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"B",0.766425
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"FWER",0.837575
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"A",0.56475
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"B",0.803975
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"FWER",0.8587
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"A",0.5549
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"B",0.84385
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"FWER",0.8833
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"A",0.6028
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"B",0.60005
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"FWER",0.76425
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"A",0.57725
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"B",0.638
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"FWER",0.77065
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"A",0.5551
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"B",0.669875
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"FWER",0.78
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"A",0.5316
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"B",0.6987
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"FWER",0.789275
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"A",0.51055
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"B",0.7298
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"FWER",0.804
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"A",0.48375
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"B",0.7555
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"FWER",0.81885
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"A",0.592075
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"B",0.590525
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"FWER",0.758375
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"A",0.564925
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"B",0.621025
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"FWER",0.76175
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"A",0.542175
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"B",0.64425
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"FWER",0.767275
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"A",0.5214
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"B",0.6645
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"FWER",0.77
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"A",0.50225
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"B",0.69275
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"FWER",0.7856
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"A",0.47655
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"B",0.71075
+1,"Arm B start at 1","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"FWER",0.792825
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"A",0.602
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"B",0.595675
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"FWER",0.80135
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"A",0.6509
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"B",0.650725
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"FWER",0.84395
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"A",0.70065
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"B",0.699275
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"FWER",0.880025
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"A",0.744575
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"B",0.7457
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"FWER",0.9059
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"A",0.78105
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"B",0.78155
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"FWER",0.9302
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"A",0.82235
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"B",0.818625
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"FWER",0.950575
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"A",0.598625
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"B",0.599475
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"FWER",0.80115
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"A",0.609425
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"B",0.61395
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"FWER",0.810125
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"A",0.6285
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"B",0.628175
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"FWER",0.824525
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"A",0.63905
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"B",0.63755
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"FWER",0.833575
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"A",0.649925
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"B",0.651625
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"FWER",0.8435
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"A",0.6636
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"B",0.662325
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"FWER",0.850875
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"A",0.597025
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"B",0.591825
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"FWER",0.799625
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"A",0.598325
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"B",0.5976
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"FWER",0.8004
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"A",0.59735
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"B",0.60035
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"FWER",0.800525
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"A",0.60365
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"B",0.599375
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"FWER",0.802375
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"A",0.603625
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"B",0.60345
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"FWER",0.805075
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"A",0.60415
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"B",0.61075
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"FWER",0.8095
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"A",0.599625
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"B",0.60155
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"FWER",0.8023
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"A",0.614525
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"B",0.649675
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"FWER",0.827075
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"A",0.622175
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"B",0.6955
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"FWER",0.8502
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"A",0.637225
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"B",0.7426
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"FWER",0.8755
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"A",0.646475
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"B",0.78255
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"FWER",0.895525
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"A",0.661425
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"B",0.8199
+25,"Arm B start at 25","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"FWER",0.91475
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"A",0.600175
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"B",0.6001
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"FWER",0.8024
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"A",0.60385
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"B",0.615475
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"FWER",0.811025
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"A",0.607825
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"B",0.631425
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"FWER",0.819075
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"A",0.608625
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"B",0.648125
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"FWER",0.824525
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"A",0.614225
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"B",0.661625
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"FWER",0.833375
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"A",0.6174
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"B",0.676275
+25,"Arm B start at 25","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"FWER",0.839775
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"A",0.5924
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"B",0.588825
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"FWER",0.795125
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"A",0.590175
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"B",0.5937
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"FWER",0.79585
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"A",0.59165
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"B",0.5949
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"FWER",0.797
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"A",0.59225
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"B",0.6051
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"FWER",0.799975
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"A",0.58915
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"B",0.601225
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"FWER",0.7986
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"A",0.5924
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"B",0.61125
+25,"Arm B start at 25","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"FWER",0.8053
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"A",0.59945
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"B",0.59955
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"FWER",0.8023
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"A",0.64635
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"B",0.64665
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"FWER",0.837025
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"A",0.690525
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"B",0.6905
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"FWER",0.873575
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"A",0.7295
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"B",0.72815
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"FWER",0.898025
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"A",0.7639
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"B",0.761475
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"FWER",0.918625
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"A",0.799675
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"B",0.792875
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"FWER",0.9361
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"A",0.601425
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"B",0.601225
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"FWER",0.8045
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"A",0.61025
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"B",0.615425
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"FWER",0.812575
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"A",0.626175
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"B",0.6272
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"FWER",0.82495
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"A",0.6391
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"B",0.637325
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"FWER",0.8335
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"A",0.650125
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"B",0.65365
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"FWER",0.8437
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"A",0.6594
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"B",0.659225
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"FWER",0.849525
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"A",0.5918
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"B",0.591375
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"FWER",0.794675
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"A",0.5987
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"B",0.5931
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"FWER",0.797875
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"A",0.598675
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"B",0.600975
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"FWER",0.800725
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"A",0.6029
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"B",0.60185
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"FWER",0.8032
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"A",0.606225
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"B",0.606125
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"FWER",0.807525
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"A",0.602075
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"B",0.60305
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"FWER",0.8044
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"A",0.602975
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"B",0.599975
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"FWER",0.803325
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"A",0.609025
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"B",0.64695
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"FWER",0.82415
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"A",0.61855
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"B",0.691
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"FWER",0.845525
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"A",0.6312
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"B",0.731875
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"FWER",0.8676
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"A",0.6357
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"B",0.77065
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"FWER",0.885075
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"A",0.646975
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"B",0.805825
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"FWER",0.90405
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"A",0.598375
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"B",0.601325
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"FWER",0.80155
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"A",0.59985
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"B",0.619075
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"FWER",0.809
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"A",0.609775
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"B",0.631175
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"FWER",0.81815
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"A",0.6102
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"B",0.6455
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"FWER",0.82745
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"A",0.6074
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"B",0.654075
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"FWER",0.82695
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"A",0.603775
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"B",0.6655
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"FWER",0.830625
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"A",0.587425
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"B",0.5938
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"FWER",0.79535
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"A",0.594325
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"B",0.595725
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"FWER",0.7968
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"A",0.59385
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"B",0.603225
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"FWER",0.79925
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"A",0.5931
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"B",0.609075
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"FWER",0.80325
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"A",0.587975
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"B",0.6069
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"FWER",0.80045
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"A",0.588825
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"B",0.607075
+25,"Arm B start at 25","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"FWER",0.7985
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"A",0.598975
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"B",0.597925
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"FWER",0.800425
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"A",0.6546
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"B",0.6518
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.844075
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"A",0.7007
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"B",0.696575
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.876775
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"A",0.744425
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"B",0.742075
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.9068
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"A",0.788125
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"B",0.784375
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.93105
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"A",0.821525
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"B",0.81325
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.9498
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"A",0.597575
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"B",0.60095
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"FWER",0.80105
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"A",0.615225
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"B",0.615625
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.8147
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"A",0.627775
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"B",0.625475
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.82475
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"A",0.643075
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"B",0.640425
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.837025
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"A",0.647775
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"B",0.648175
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.844525
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"A",0.65775
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"B",0.660625
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.853125
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"A",0.588175
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"B",0.5923
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"FWER",0.794425
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"A",0.593325
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"B",0.594375
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.798
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"A",0.600625
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"B",0.596575
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.802375
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"A",0.604
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"B",0.600425
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.805525
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"A",0.602525
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"B",0.600875
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.8081
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"A",0.607525
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"B",0.6018
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.81235
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"A",0.60305
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"B",0.598375
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"FWER",0.802125
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"A",0.5979
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"B",0.653725
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"FWER",0.823975
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"A",0.590925
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"B",0.70795
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"FWER",0.846125
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"A",0.588
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"B",0.749625
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"FWER",0.8637
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"A",0.580225
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"B",0.797625
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"FWER",0.88785
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"A",0.57765
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"B",0.8323
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"FWER",0.9049
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"A",0.597275
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"B",0.6015
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"FWER",0.802675
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"A",0.588075
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"B",0.6252
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"FWER",0.806825
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"A",0.58025
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"B",0.648575
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"FWER",0.815925
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"A",0.566925
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"B",0.674775
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"FWER",0.826725
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"A",0.555025
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"B",0.698425
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"FWER",0.830175
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"A",0.5436
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"B",0.71015
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"FWER",0.835825
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"A",0.595
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"B",0.592675
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"FWER",0.7953
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"A",0.583025
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"B",0.608475
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"FWER",0.8001
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"A",0.566925
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"B",0.625
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"FWER",0.799875
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"A",0.55655
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"B",0.637
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"FWER",0.800825
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"A",0.540975
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"B",0.649075
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"FWER",0.803
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"A",0.53635
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"B",0.654775
+25,"Arm B start at 25","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"FWER",0.804025
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"A",0.597325
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"B",0.5987
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"FWER",0.839875
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"A",0.6513
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"B",0.6484
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"FWER",0.8768
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"A",0.698975
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"B",0.702775
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"FWER",0.911
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"A",0.7485
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"B",0.75035
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"FWER",0.9379
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"A",0.7859
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"B",0.784475
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"FWER",0.95365
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"A",0.8239
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"B",0.821975
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"FWER",0.96985
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"A",0.6027
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"B",0.5964
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"FWER",0.839325
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"A",0.614925
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"B",0.6146
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"FWER",0.85075
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"A",0.6328
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"B",0.628625
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"FWER",0.86355
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"A",0.647925
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"B",0.645525
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"FWER",0.876525
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"A",0.658775
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"B",0.66165
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"FWER",0.884075
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"A",0.673225
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"B",0.6751
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"FWER",0.8952
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"A",0.5888
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"B",0.59325
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"FWER",0.83315
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"A",0.601475
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"B",0.597775
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"FWER",0.8398
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"A",0.604825
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"B",0.6053
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"FWER",0.8437
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"A",0.61065
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"B",0.61475
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"FWER",0.84925
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"A",0.61865
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"B",0.617025
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"FWER",0.8546
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"A",0.61935
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"B",0.623225
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"FWER",0.854725
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"A",0.596925
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"B",0.602
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"FWER",0.837725
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"A",0.604725
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"B",0.6517
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"FWER",0.861775
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"A",0.6018
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"B",0.7001
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"FWER",0.879075
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"A",0.599675
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"B",0.741875
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"FWER",0.896625
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"A",0.59915
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"B",0.785125
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"FWER",0.9134
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"A",0.597475
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"B",0.821475
+49,"Arm B start at 49","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"FWER",0.929475
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"A",0.60355
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"B",0.59625
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"FWER",0.840525
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"A",0.59695
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"B",0.619275
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"FWER",0.844925
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"A",0.60345
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"B",0.631325
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"FWER",0.8556
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"A",0.60125
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"B",0.643625
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"FWER",0.8593
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"A",0.595525
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"B",0.66125
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"FWER",0.86225
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"A",0.6009
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"B",0.6751
+49,"Arm B start at 49","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"FWER",0.869975
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"A",0.589625
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"B",0.588625
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"FWER",0.829925
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"A",0.591225
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"B",0.597375
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"FWER",0.83435
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"A",0.5943
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"B",0.6088
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"FWER",0.84125
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"A",0.5924
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"B",0.61185
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"FWER",0.841775
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"A",0.590675
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"B",0.618525
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"FWER",0.8438
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"A",0.595375
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"B",0.62485
+49,"Arm B start at 49","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"FWER",0.85035
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"A",0.60085
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"B",0.601625
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"FWER",0.841675
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"A",0.6482
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"B",0.6525
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"FWER",0.875225
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"A",0.702175
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"B",0.69745
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"FWER",0.9097
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"A",0.747525
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"B",0.747
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"FWER",0.935275
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"A",0.785175
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"B",0.784325
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"FWER",0.952875
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"A",0.818625
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"B",0.81835
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"FWER",0.9686
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"A",0.60175
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"B",0.601125
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"FWER",0.842125
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"A",0.614175
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"B",0.614975
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"FWER",0.8515
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"A",0.632975
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"B",0.6287
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"FWER",0.86685
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"A",0.6513
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"B",0.64455
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"FWER",0.876325
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"A",0.659275
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"B",0.65915
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"FWER",0.88605
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"A",0.670975
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"B",0.669625
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"FWER",0.890925
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"A",0.594175
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"B",0.5918
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"FWER",0.83435
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"A",0.597625
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"B",0.602525
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"FWER",0.84005
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"A",0.604175
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"B",0.605875
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"FWER",0.84135
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"A",0.611525
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"B",0.610975
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"FWER",0.84945
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"A",0.6199
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"B",0.6157
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"FWER",0.85285
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"A",0.625175
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"B",0.62515
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"FWER",0.858125
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"A",0.598575
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"B",0.599675
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"FWER",0.83965
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"A",0.601775
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"B",0.656625
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"FWER",0.86325
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"A",0.59725
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"B",0.695775
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"FWER",0.877675
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"A",0.5981
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"B",0.741775
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"FWER",0.89715
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"A",0.599125
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"B",0.787825
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"FWER",0.9145
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"A",0.600375
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"B",0.82315
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"FWER",0.929175
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"A",0.59805
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"B",0.59825
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"FWER",0.83935
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"A",0.602125
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"B",0.61465
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"FWER",0.84555
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"A",0.59925
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"B",0.6321
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"FWER",0.8525
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"A",0.598175
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"B",0.64575
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"FWER",0.859
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"A",0.597625
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"B",0.6624
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"FWER",0.86545
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"A",0.6004
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"B",0.67205
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"FWER",0.8674
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"A",0.585625
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"B",0.593225
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"FWER",0.832475
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"A",0.588875
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"B",0.599375
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"FWER",0.836025
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"A",0.590625
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"B",0.604725
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"FWER",0.83895
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"A",0.5899
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"B",0.6097
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"FWER",0.841825
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"A",0.587575
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"B",0.61525
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"FWER",0.84115
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"A",0.589425
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"B",0.620825
+49,"Arm B start at 49","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"FWER",0.844
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"A",0.603575
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"B",0.6014
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"FWER",0.842875
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"A",0.650575
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"B",0.650375
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.876025
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"A",0.697925
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"B",0.7012
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.910375
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"A",0.747425
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"B",0.7473
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.935575
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"A",0.780775
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"B",0.783525
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.952475
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"A",0.822075
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"B",0.822475
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.96785
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"A",0.5967
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"B",0.596525
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"FWER",0.836425
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"A",0.614625
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"B",0.61725
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.850825
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"A",0.63375
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"B",0.629825
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.86225
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"A",0.650075
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"B",0.645225
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.877525
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"A",0.658725
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"B",0.660125
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.883925
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"A",0.675125
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"B",0.675875
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.8935
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"A",0.58835
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"B",0.5908
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"FWER",0.831825
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"A",0.594775
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"B",0.5969
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.836775
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"A",0.6049
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"B",0.602575
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.843175
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"A",0.612
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"B",0.6138
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.850675
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"A",0.616775
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"B",0.61795
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.853925
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"A",0.625925
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"B",0.620325
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.858275
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"A",0.601625
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"B",0.59805
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"FWER",0.842525
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"A",0.604925
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"B",0.6524
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"FWER",0.863075
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"A",0.602
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"B",0.698525
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"FWER",0.8796
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"A",0.5956
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"B",0.7481
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"FWER",0.897025
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"A",0.597225
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"B",0.78405
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"FWER",0.913225
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"A",0.60215
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"B",0.82255
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"FWER",0.93025
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"A",0.6003
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"B",0.601025
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"FWER",0.840725
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"A",0.599725
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"B",0.6133
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"FWER",0.844725
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"A",0.599775
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"B",0.631375
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"FWER",0.85065
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"A",0.601425
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"B",0.649075
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"FWER",0.8597
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"A",0.600125
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"B",0.660925
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"FWER",0.86325
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"A",0.600275
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"B",0.673425
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"FWER",0.869675
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"A",0.58705
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"B",0.590525
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"FWER",0.83145
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"A",0.592825
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"B",0.599725
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"FWER",0.83485
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"A",0.5933
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"B",0.606175
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"FWER",0.841675
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"A",0.591275
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"B",0.6139
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"FWER",0.8434
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"A",0.595225
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"B",0.618375
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"FWER",0.845175
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"A",0.591625
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"B",0.626575
+49,"Arm B start at 49","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"FWER",0.849425

@@ -1,0 +1,973 @@
+"scenario_b_start","scenario_label","scheme_id","scheme_label","rand_mode","rand_label","bias_policy_base","bias_policy_full","alloc_bias","series","rate"
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"A",0.02537
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"B",0.02487
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"FWER",0.04575
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"A",0.03542
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"B",0.03479
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"FWER",0.06283
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"A",0.04387
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"B",0.04478
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"FWER",0.07883
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"A",0.06001
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"B",0.05797
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"FWER",0.10293
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"A",0.0773
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"B",0.07698
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"FWER",0.13278
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"A",0.09559
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"B",0.09531
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"FWER",0.16124
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"A",0.0253
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"B",0.02407
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"FWER",0.04541
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"A",0.02654
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"B",0.0261
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"FWER",0.04765
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"A",0.02815
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"B",0.02905
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"FWER",0.0516
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"A",0.03117
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"B",0.03189
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"FWER",0.05688
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"A",0.03364
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"B",0.03357
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"FWER",0.06053
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"A",0.03663
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"B",0.03697
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"FWER",0.06571
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"A",0.02385
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"B",0.02472
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"FWER",0.0445
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"A",0.02567
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"B",0.02578
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"FWER",0.04712
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"A",0.02713
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"B",0.02732
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"FWER",0.04953
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"A",0.02741
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"B",0.02837
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"FWER",0.05083
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"A",0.02876
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"B",0.0285
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"FWER",0.05233
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"A",0.02902
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"B",0.03005
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"FWER",0.05413
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"A",0.0246
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"B",0.0245
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"FWER",0.04471
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"A",0.02978
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"B",0.03462
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"FWER",0.05809
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"A",0.03413
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"B",0.04529
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"FWER",0.07093
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"A",0.03939
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"B",0.05893
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"FWER",0.08663
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"A",0.04571
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"B",0.07618
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"FWER",0.10755
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"A",0.05248
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"B",0.09625
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"FWER",0.12918
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"A",0.02557
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"B",0.02594
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"FWER",0.0467
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"A",0.02682
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"B",0.02749
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"FWER",0.04904
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"A",0.02789
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"B",0.03173
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"FWER",0.05375
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"A",0.02995
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"B",0.0344
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"FWER",0.05819
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"A",0.03192
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"B",0.03947
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"FWER",0.06392
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"A",0.03321
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"B",0.04249
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"FWER",0.06795
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"A",0.02533
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"B",0.02431
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"FWER",0.04533
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"A",0.02518
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"B",0.02607
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"FWER",0.04682
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"A",0.0252
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"B",0.02695
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"FWER",0.04755
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"A",0.02573
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"B",0.02765
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"FWER",0.04889
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"A",0.02691
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"B",0.0299
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"FWER",0.05164
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"A",0.02779
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"B",0.02973
+0,"Scenario 1: Arm A and B start at 0","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"FWER",0.05236
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"A",0.02415
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"B",0.02539
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"FWER",0.04487
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"A",0.03155
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"B",0.03204
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"FWER",0.05715
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"A",0.03921
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"B",0.03821
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"FWER",0.06895
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"A",0.04922
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"B",0.0499
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"FWER",0.08718
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"A",0.06067
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"B",0.06047
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"FWER",0.10552
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"A",0.07214
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"B",0.07223
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"FWER",0.12435
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"A",0.02472
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"B",0.02498
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"FWER",0.04498
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"A",0.02691
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"B",0.0269
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"FWER",0.04913
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"A",0.02958
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"B",0.02892
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"FWER",0.05286
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"A",0.03155
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"B",0.03303
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"FWER",0.05765
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"A",0.03391
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"B",0.03405
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"FWER",0.06106
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"A",0.03653
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"B",0.03706
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"FWER",0.06662
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"A",0.02546
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"B",0.02538
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"FWER",0.04655
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"A",0.02528
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"B",0.02558
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"FWER",0.04666
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"A",0.02712
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"B",0.0272
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"FWER",0.04944
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"A",0.02767
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"B",0.02776
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"FWER",0.05003
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"A",0.02888
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"B",0.02827
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"FWER",0.0522
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"A",0.02915
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"B",0.02886
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"FWER",0.05286
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"A",0.02498
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"B",0.02534
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"FWER",0.04555
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"A",0.02787
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"B",0.03152
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"FWER",0.05343
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"A",0.03219
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"B",0.04224
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"FWER",0.06662
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"A",0.03658
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"B",0.05135
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"FWER",0.07817
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"A",0.04227
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"B",0.06524
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"FWER",0.09465
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"A",0.04513
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"B",0.07853
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"FWER",0.1088
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"A",0.02538
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"B",0.02498
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"FWER",0.046
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"A",0.02563
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"B",0.02742
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"FWER",0.04807
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"A",0.02729
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"B",0.03006
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"FWER",0.05201
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"A",0.02845
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"B",0.03255
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"FWER",0.05505
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"A",0.02863
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"B",0.03637
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"FWER",0.05833
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"A",0.03112
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"B",0.03888
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"FWER",0.06286
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"A",0.02359
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"B",0.0246
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"FWER",0.0442
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"A",0.02621
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"B",0.02555
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"FWER",0.04727
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"A",0.02666
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"B",0.02751
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"FWER",0.04955
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"A",0.02659
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"B",0.02792
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"FWER",0.0495
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"A",0.02763
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"B",0.03018
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"FWER",0.05249
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"A",0.02658
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"B",0.03015
+0,"Scenario 1: Arm A and B start at 0","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"FWER",0.05201
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"A",0.02503
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"B",0.02526
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"FWER",0.04528
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"A",0.03331
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"B",0.03353
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.05986
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"A",0.0456
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"B",0.04585
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.08068
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"A",0.05808
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"B",0.06095
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.10407
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"A",0.0769
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"B",0.07674
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.13222
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"A",0.09718
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"B",0.09725
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.16391
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"A",0.0246
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"B",0.02478
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"FWER",0.04508
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"A",0.02773
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"B",0.0267
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.04954
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"A",0.03049
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"B",0.0304
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.05503
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"A",0.03481
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"B",0.03487
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.06328
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"A",0.03745
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"B",0.03775
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.06855
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"A",0.04364
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"B",0.04226
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.07851
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"A",0.0247
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"B",0.02511
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"FWER",0.04546
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"A",0.02617
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"B",0.0263
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.04806
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"A",0.02756
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"B",0.02733
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.05022
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"A",0.02858
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"B",0.02923
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.0535
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"A",0.03161
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"B",0.03118
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.05823
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"A",0.03371
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"B",0.03522
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.06406
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"A",0.02495
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"B",0.02436
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"FWER",0.04494
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"A",0.02321
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"B",0.03558
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"FWER",0.05312
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"A",0.02247
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"B",0.0499
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"FWER",0.06582
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"A",0.02127
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"B",0.06786
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"FWER",0.08174
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"A",0.02035
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"B",0.08944
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"FWER",0.10115
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"A",0.01876
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"B",0.11799
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"FWER",0.12731
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"A",0.02443
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"B",0.02515
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"FWER",0.04506
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"A",0.02249
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"B",0.03075
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"FWER",0.04841
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"A",0.01932
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"B",0.03819
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"FWER",0.05261
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"A",0.01676
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"B",0.04783
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"FWER",0.05939
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"A",0.01518
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"B",0.05824
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"FWER",0.06852
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"A",0.01416
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"B",0.07005
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"FWER",0.07938
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"A",0.02465
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"B",0.02521
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"FWER",0.04551
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"A",0.0216
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"B",0.02978
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"FWER",0.04698
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"A",0.02067
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"B",0.03481
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"FWER",0.05078
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"A",0.01748
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"B",0.04228
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"FWER",0.05538
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"A",0.01565
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"B",0.04843
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"FWER",0.06003
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"A",0.01373
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"B",0.0554
+0,"Scenario 1: Arm A and B start at 0","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"FWER",0.06504
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"A",0.02552
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"B",0.02518
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"FWER",0.04885
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"A",0.03394
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"B",0.03373
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"FWER",0.0642
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"A",0.04476
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"B",0.04417
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"FWER",0.08392
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"A",0.05982
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"B",0.05791
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"FWER",0.11014
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"A",0.07804
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"B",0.07614
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"FWER",0.14153
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"A",0.09624
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"B",0.09604
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"FWER",0.17493
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"A",0.02484
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"B",0.02515
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"FWER",0.04792
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"A",0.02705
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"B",0.02635
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"FWER",0.05127
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"A",0.02932
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"B",0.02956
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"FWER",0.05651
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"A",0.03247
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"B",0.03232
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"FWER",0.06207
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"A",0.03625
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"B",0.03511
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"FWER",0.06778
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"A",0.03698
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"B",0.03707
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"FWER",0.07059
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"A",0.02497
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"B",0.02508
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"FWER",0.04814
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"A",0.02599
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"B",0.02546
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"FWER",0.04954
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"A",0.02557
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"B",0.02661
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"FWER",0.05018
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"A",0.02644
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"B",0.02682
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"FWER",0.05102
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"A",0.02803
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"B",0.0275
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"FWER",0.05351
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"A",0.02961
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"B",0.02887
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"FWER",0.05578
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"A",0.025
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"B",0.02573
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"FWER",0.04883
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"A",0.02642
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"B",0.0335
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"FWER",0.05721
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"A",0.02918
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"B",0.0457
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"FWER",0.07113
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"A",0.0318
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"B",0.05938
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"FWER",0.08643
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"A",0.03309
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"B",0.07664
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"FWER",0.10349
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"A",0.03603
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"B",0.09609
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"FWER",0.12454
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"A",0.02503
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"B",0.02465
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"FWER",0.04793
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"A",0.02559
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"B",0.02783
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"FWER",0.05138
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"A",0.02581
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"B",0.03121
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"FWER",0.05501
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"A",0.02639
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"B",0.03424
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"FWER",0.05816
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"A",0.02759
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"B",0.03563
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"FWER",0.06059
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"A",0.02762
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"B",0.04027
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"FWER",0.06493
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"A",0.02477
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"B",0.02533
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"FWER",0.04836
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"A",0.02526
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"B",0.02577
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"FWER",0.04905
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"A",0.02544
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"B",0.02664
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"FWER",0.0499
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"A",0.0252
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"B",0.02721
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"FWER",0.05025
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"A",0.02576
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"B",0.0281
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"FWER",0.05202
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"A",0.02551
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"B",0.02907
+25,"Scenario 2: Arm B starts at 25 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"FWER",0.05262
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"A",0.02473
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"B",0.02472
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"FWER",0.0477
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"A",0.03397
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"B",0.03195
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"FWER",0.06273
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"A",0.04168
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"B",0.04334
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"FWER",0.08055
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"A",0.05502
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"B",0.05395
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"FWER",0.10235
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"A",0.06817
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"B",0.06734
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"FWER",0.12538
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"A",0.0856
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"B",0.08339
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"FWER",0.15442
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"A",0.02486
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"B",0.02397
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"FWER",0.04713
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"A",0.02623
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"B",0.02767
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"FWER",0.05184
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"A",0.0294
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"B",0.03057
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"FWER",0.05753
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"A",0.03235
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"B",0.03214
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"FWER",0.06137
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"A",0.03411
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"B",0.03365
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"FWER",0.06449
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"A",0.03707
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"B",0.03636
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"FWER",0.06979
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"A",0.02528
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"B",0.02491
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"FWER",0.04831
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"A",0.02603
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"B",0.02596
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"FWER",0.04994
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"A",0.02636
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"B",0.02685
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"FWER",0.05124
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"A",0.02709
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"B",0.02724
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"FWER",0.05197
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"A",0.02717
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"B",0.02783
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"FWER",0.05298
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"A",0.02925
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"B",0.029
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"FWER",0.05566
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"A",0.02519
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"B",0.02503
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"FWER",0.04849
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"A",0.02627
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"B",0.0329
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"FWER",0.05668
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"A",0.02747
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"B",0.04318
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"FWER",0.06771
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"A",0.03081
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"B",0.05523
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"FWER",0.0818
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"A",0.03181
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"B",0.06962
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"FWER",0.09605
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"A",0.03387
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"B",0.08668
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"FWER",0.11399
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"A",0.02512
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"B",0.0252
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"FWER",0.04841
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"A",0.02653
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"B",0.02729
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"FWER",0.05176
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"A",0.02632
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"B",0.03073
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"FWER",0.05453
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"A",0.02641
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"B",0.0328
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"FWER",0.05661
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"A",0.02684
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"B",0.0352
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"FWER",0.05937
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"A",0.02694
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"B",0.03838
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"FWER",0.06196
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"A",0.02515
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"B",0.02525
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"FWER",0.04858
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"A",0.02469
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"B",0.02577
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"FWER",0.04846
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"A",0.02549
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"B",0.02724
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"FWER",0.0508
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"A",0.02608
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"B",0.02877
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"FWER",0.05261
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"A",0.02599
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"B",0.02839
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"FWER",0.05192
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"A",0.02629
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"B",0.02938
+25,"Scenario 2: Arm B starts at 25 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"FWER",0.05344
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"A",0.02513
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"B",0.025
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"FWER",0.04798
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"A",0.03385
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"B",0.03331
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.0641
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"A",0.0449
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"B",0.04525
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.08523
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"A",0.06079
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"B",0.05917
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.11169
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"A",0.07805
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"B",0.07522
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.14085
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"A",0.09966
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"B",0.09679
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.17827
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"A",0.02567
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"B",0.02569
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"FWER",0.04901
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"A",0.02739
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"B",0.0281
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.053
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"A",0.03
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"B",0.0308
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.05826
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"A",0.03313
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"B",0.03199
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.06188
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"A",0.0355
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"B",0.035
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.06726
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"A",0.03974
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"B",0.03853
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.07463
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"A",0.02444
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"B",0.025
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"FWER",0.04764
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"A",0.02559
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"B",0.02478
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.04874
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"A",0.02642
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"B",0.02586
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.05031
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"A",0.02845
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"B",0.02771
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.05396
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"A",0.03015
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"B",0.02976
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.05743
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"A",0.03149
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"B",0.03024
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.05939
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"A",0.02501
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"B",0.0255
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"FWER",0.04865
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"A",0.0252
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"B",0.03443
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"FWER",0.057
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"A",0.02369
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"B",0.04781
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"FWER",0.06826
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"A",0.02299
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"B",0.06336
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"FWER",0.08286
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"A",0.02228
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"B",0.08244
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"FWER",0.10038
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"A",0.02122
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"B",0.10748
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"FWER",0.1231
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"A",0.0255
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"B",0.02558
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"FWER",0.04923
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"A",0.02322
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"B",0.0285
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"FWER",0.0499
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"A",0.02194
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"B",0.03309
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"FWER",0.05285
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"A",0.02069
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"B",0.03917
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"FWER",0.05768
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"A",0.01868
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"B",0.04621
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"FWER",0.06239
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"A",0.01819
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"B",0.05042
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"FWER",0.06639
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"A",0.02501
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"B",0.02532
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"FWER",0.04832
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"A",0.02347
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"B",0.02721
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"FWER",0.04869
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"A",0.0211
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"B",0.02879
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"FWER",0.048
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"A",0.0209
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"B",0.03322
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"FWER",0.05187
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"A",0.02051
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"B",0.03591
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"FWER",0.05444
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"A",0.01814
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"B",0.03998
+25,"Scenario 2: Arm B starts at 25 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"FWER",0.05612
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"A",0.02485
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"B",0.02466
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"FWER",0.04896
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"A",0.03362
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"B",0.03376
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"FWER",0.06613
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"A",0.04438
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"B",0.04569
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"FWER",0.0881
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"A",0.06014
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"B",0.05996
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"FWER",0.11657
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"A",0.07739
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"B",0.07848
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"FWER",0.1493
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"A",0.09727
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"B",0.09699
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"FWER",0.18444
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"A",0.02494
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"B",0.02391
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"FWER",0.04829
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"A",0.02758
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"B",0.02777
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"FWER",0.05461
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"A",0.03037
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"B",0.03011
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"FWER",0.05948
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"A",0.0328
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"B",0.03337
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"FWER",0.06518
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"A",0.03617
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"B",0.03717
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"FWER",0.07193
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"A",0.03899
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"B",0.04017
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"FWER",0.07774
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"A",0.02582
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"B",0.02546
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"FWER",0.0506
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"A",0.02629
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"B",0.02634
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"FWER",0.052
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"A",0.02743
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"B",0.02701
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"FWER",0.05366
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"A",0.02841
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"B",0.02905
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"FWER",0.05666
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"A",0.03007
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"B",0.02938
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"FWER",0.05869
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"A",0.03115
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"B",0.03077
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"FWER",0.06087
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"A",0.02479
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"B",0.0247
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"FWER",0.04892
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"A",0.02488
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"B",0.03399
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"FWER",0.05795
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"A",0.02518
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"B",0.04553
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"FWER",0.06932
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"A",0.0256
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"B",0.05959
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"FWER",0.0837
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"A",0.02532
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"B",0.07555
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"FWER",0.0989
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"A",0.02437
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"B",0.09823
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"FWER",0.12002
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"A",0.02548
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"B",0.02455
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"FWER",0.0493
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"A",0.02559
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"B",0.0282
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"FWER",0.05313
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"A",0.02497
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"B",0.03144
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"FWER",0.05564
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"A",0.02582
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"B",0.03285
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"FWER",0.05772
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"A",0.02531
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"B",0.0371
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"FWER",0.06146
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"A",0.02481
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"B",0.03886
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"FWER",0.06289
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"A",0.02558
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"B",0.02529
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0,"FWER",0.05026
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"A",0.02558
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"B",0.02637
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.04,"FWER",0.05122
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"A",0.02384
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"B",0.02731
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.08,"FWER",0.05038
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"A",0.02537
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"B",0.02969
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.12,"FWER",0.05425
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"A",0.02463
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"B",0.02962
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.16,"FWER",0.05355
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"A",0.02441
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"B",0.03154
+49,"Scenario 3: Arm B starts at 49 patients","step1","1-step randomization","complete","Complete randomization","favor_B","favor_B",0.2,"FWER",0.05514
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"A",0.02477
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"B",0.02573
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0,"FWER",0.04999
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"A",0.0338
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"B",0.03391
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.04,"FWER",0.06669
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"A",0.04513
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"B",0.04609
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.08,"FWER",0.08889
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"A",0.06193
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"B",0.06031
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.12,"FWER",0.11835
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"A",0.07826
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"B",0.07739
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.16,"FWER",0.14959
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"A",0.09667
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"B",0.09948
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp",0.2,"FWER",0.18659
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"A",0.02586
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"B",0.02451
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0,"FWER",0.04972
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"A",0.02772
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"B",0.02802
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.04,"FWER",0.0551
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"A",0.03002
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"B",0.03006
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.08,"FWER",0.05925
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"A",0.03393
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"B",0.03357
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.12,"FWER",0.06638
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"A",0.03588
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"B",0.03549
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.16,"FWER",0.07012
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"A",0.03965
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"B",0.03916
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp",0.2,"FWER",0.07743
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"A",0.02439
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"B",0.02546
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0,"FWER",0.04921
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"A",0.0264
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"B",0.02664
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.04,"FWER",0.05239
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"A",0.02696
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"B",0.02765
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.08,"FWER",0.05387
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"A",0.02881
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"B",0.02942
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.12,"FWER",0.0574
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"A",0.0295
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"B",0.02994
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.16,"FWER",0.05863
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"A",0.03128
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"B",0.03173
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_all_exp","favor_all_exp",0.2,"FWER",0.06198
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"A",0.02518
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"B",0.02487
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0,"FWER",0.04942
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"A",0.0246
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"B",0.03388
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.04,"FWER",0.05774
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"A",0.02547
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"B",0.04544
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.08,"FWER",0.06971
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"A",0.02427
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"B",0.06034
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.12,"FWER",0.0831
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"A",0.02416
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"B",0.07864
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.16,"FWER",0.10083
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"A",0.02543
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"B",0.09935
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","block","Permuted block randomization (factor = 1)","favor_B","favor_B",0.2,"FWER",0.12247
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"A",0.02487
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"B",0.02507
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0,"FWER",0.04935
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"A",0.02445
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"B",0.02759
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.04,"FWER",0.05117
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"A",0.02502
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"B",0.03056
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.08,"FWER",0.05475
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"A",0.02605
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"B",0.03389
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.12,"FWER",0.05895
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"A",0.02453
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"B",0.03571
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.16,"FWER",0.05938
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"A",0.02454
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"B",0.0394
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","bigstick","Big stick design (a = 3)","favor_B","favor_B",0.2,"FWER",0.06296
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"A",0.02473
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"B",0.0252
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0,"FWER",0.04921
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"A",0.02541
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"B",0.02526
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.04,"FWER",0.05002
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"A",0.02501
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"B",0.0281
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.08,"FWER",0.05241
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"A",0.02488
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"B",0.02837
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.12,"FWER",0.0524
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"A",0.02487
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"B",0.02992
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.16,"FWER",0.05407
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"A",0.02457
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"B",0.03141
+49,"Scenario 3: Arm B starts at 49 patients","step2_total","2-step randomization (total counts only)","complete","Complete randomization","favor_B","favor_B",0.2,"FWER",0.05519
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"A",0.02559
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"B",0.02452
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0,"FWER",0.04951
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"A",0.03411
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"B",0.03355
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.06667
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"A",0.04503
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"B",0.04475
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.088
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"A",0.06077
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"B",0.06016
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.11724
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"A",0.07712
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"B",0.07759
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.14902
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"A",0.09685
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"B",0.1005
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.18772
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"A",0.02514
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"B",0.02521
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0,"FWER",0.04964
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"A",0.02759
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"B",0.02701
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.05377
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"A",0.02983
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"B",0.03012
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.05886
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"A",0.03406
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"B",0.03274
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.06562
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"A",0.03628
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"B",0.03673
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.07169
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"A",0.04065
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"B",0.03944
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.07857
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"A",0.0255
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"B",0.02466
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0,"FWER",0.04942
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"A",0.02646
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"B",0.02557
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.04,"FWER",0.05139
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"A",0.02651
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"B",0.02779
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.08,"FWER",0.0536
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"A",0.02897
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"B",0.02836
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.12,"FWER",0.05651
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"A",0.02956
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"B",0.02948
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.16,"FWER",0.05814
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"A",0.0316
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"B",0.03073
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_all_exp","favor_all_exp_2step",0.2,"FWER",0.06133
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"A",0.0249
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"B",0.0257
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0,"FWER",0.05002
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"A",0.02539
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"B",0.03517
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.04,"FWER",0.05972
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"A",0.02486
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"B",0.04506
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.08,"FWER",0.06883
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"A",0.02414
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"B",0.0599
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.12,"FWER",0.08246
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"A",0.02494
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"B",0.07879
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.16,"FWER",0.10181
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"A",0.02507
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"B",0.09815
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","block","Permuted block randomization (factor = 1)","favor_B","favor_B_2step",0.2,"FWER",0.12059
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"A",0.02467
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"B",0.02513
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0,"FWER",0.04899
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"A",0.02557
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"B",0.02789
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.04,"FWER",0.05272
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"A",0.02532
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"B",0.03126
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.08,"FWER",0.05566
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"A",0.02395
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"B",0.03391
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.12,"FWER",0.05677
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"A",0.02525
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"B",0.03646
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.16,"FWER",0.06077
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"A",0.02471
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"B",0.03898
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","bigstick","Big stick design (a = 3)","favor_B","favor_B_2step",0.2,"FWER",0.06269
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"A",0.0247
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"B",0.02544
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0,"FWER",0.04943
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"A",0.02415
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"B",0.02615
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.04,"FWER",0.04959
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"A",0.02505
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"B",0.0268
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.08,"FWER",0.05111
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"A",0.02504
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"B",0.02791
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.12,"FWER",0.05218
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"A",0.02601
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"B",0.03002
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.16,"FWER",0.05514
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"A",0.02517
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"B",0.03116
+49,"Scenario 3: Arm B starts at 49 patients","step2_cohort","2-step randomization (total counts by cohort)","complete","Complete randomization","favor_B","favor_B_2step",0.2,"FWER",0.05565
