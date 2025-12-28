@@ -4,7 +4,7 @@ This repository contains the simulation code and results used in the manuscript:
 
 With this supplement you can:
 1) **Re-create all manuscript/supplement figures** from the pre-computed CSV results (**fast**), and  
-2) **Re-run the full Monte Carlo simulations** to recrate the CSV results (**slow; intended for HPC**).
+2) **Re-run the full Monte Carlo simulations** to recreate the CSV results (**slow; intended for HPC**).
 
 The simulations were run in **R 4.2.2** on the **NHR4CES** high-performance computing cluster.
 
