@@ -82,12 +82,12 @@ Plot scripts:
 | Paper figure | Plot script | Required CSV inputs | Output folder (PDFs) |
 |---|---|---|---|
 | Main Fig. 3 (allocation bias, concurrent controls) | `plot_allocation_bias.R` | `PT_bias/results_allocbias_concurrent_threeScenarios/t1e_vs_alloc_concurrent_threeScenarios_steps.csv` | `plots_allocbias_concurrent_threeScenarios/` |
-| Main Fig. 3 (power panel) / Supplement (allocation bias power, concurrent controls) | `plot_allocation_bias_power.R` | `PT_bias/results_allocbias_concurrent_threeScenarios/power_vs_alloc_concurrent_threeScenarios_steps.csv` | `plots_allocbiasPOWER_concurrent_threeScenarios/` |
 | Main Fig. 4 (chronological bias, concurrent controls) | `plot_chrono_bias.R` | `PT_bias/results_chronobias_threeScenarios/chronobias_concurrent_threeScenarios_t1e_power.csv` | `plots_chronobias_threeBstarts/` |
 | Main Fig. 5 (chronological bias, enriched with non-concurrent controls) | `plot_nonconcurrent.R` | `PT_bias/results_nonconcurrent/chronobias_nonconc_t1e_bothModels.csv` and `PT_bias/results_nonconcurrent/chronobias_nonconc_power_bothModels.csv` | `plots_nonconc_both/` |
 | Main Fig. 6 (allocation bias, enriched with non-concurrent controls) | `plot_nonconcurrent.R` | `PT_bias/results_nonconcurrent/allocbias_nonconc_t1e_preferB_bothModels.csv` and `PT_bias/results_nonconcurrent/allocbias_nonconc_power_preferB_bothModels.csv` | `plots_nonconc_both/` |
+| Supplement allocation bias power, concurrent controls | `plot_allocation_bias_power.R` | `PT_bias/results_allocbias_concurrent_threeScenarios/power_vs_alloc_concurrent_threeScenarios_steps.csv` | `plots_allocbiasPOWER_concurrent_threeScenarios/` |
 | Supplement: alternative time-trend shapes (B-only) | `plotting_diff_biases.R` | `PT_bias/results_nonconcurrent/chronoshapes_nonconc_t1e_Bonly_bothModels.csv` and `PT_bias/results_nonconcurrent/chronoshapes_nonconc_power_Bonly_bothModels.csv` | `plots_nonconc_chronoshapes_Bonly/` |
-| Optional: additional chronobias power figure | `plot_chronological_bias_power.R` | `PT_bias/results_chronobiasPOWER_nonconc_threeSchemes/power_vs_chron_nonconc_steps.csv` | `plots_chronobiasPOWER_nonconc_threeSchemes/` |
+
 
 ---
 ---
